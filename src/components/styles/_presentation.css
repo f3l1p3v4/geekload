@@ -1,0 +1,115 @@
+.presentation {
+    padding: 60px 0;
+    margin: 0 20px;
+}
+
+.link-social {   
+    display: table;
+    height: 100vh;
+    margin-top: -50vh;
+    position: fixed;
+    top: 50%;
+}
+
+
+.link-social ul {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.link-social ul li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    margin: 20px 0;
+}
+
+.link-social ul li a {
+    font-size: 1.4rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #1b63d1;
+    transition: all 0.3s ease-in-out;
+}
+
+.link-social ul li a:hover {
+    opacity: 0.8;
+}
+
+.presentation .presentation-container {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 20px auto;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: center;
+    -ms-flex-pack: justify;
+    justify-content: center;
+}
+
+.presentation .presentation-container>div {
+    width: calc(50% - 80px);
+}
+
+.presentation .presentation-container>div h1 {
+    color: #1b63d1;
+    font-size: 4em;
+    line-height: 1.3em;
+}
+
+.presentation .presentation-container>div p {
+    color: #4b4b4b;
+    font-size: 18px;
+    line-height: 32px;
+    margin: 10px 0 0;
+}
+
+.presentation .presentation-container>div a {
+    display: inline-block;
+    margin: 15px 0 0;
+    width: 250px;
+    padding: 0 30px;
+    line-height: 50px;
+    font-size: 25px;
+    font-weight: 600;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    color: #fff;
+    background-color: #1b63d1;
+    border-radius: 5px;
+    -webkit-transition: all linear 150ms;
+    transition: all linear 150ms;
+}
+
+.presentation .presentation-container>div a:hover,
+.presentation .presentation-container>div a:focus {
+    opacity: 0.9;
+}
+
+@media (max-width:700px) {
+    .presentation .presentation-container>div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .presentation .presentation-container>img {
+        display: none;
+    }
+}
+
+.presentation .presentation-container .presentation-img {
+    width: 40%;
+}
