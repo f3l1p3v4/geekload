@@ -1,0 +1,113 @@
+.course-container {
+    flex: 1;
+    margin: 30px 50px;
+}
+
+.course-container h1 {
+    color: #444;
+    font-size: 4em;
+    line-height: 1.3em;
+}
+
+.course-container p {
+    font-weight: 700;
+    color: #444;
+    font-size: 2.1em;
+    line-height: 1.3em;
+    margin: 20px;
+}
+
+.course-container a {
+    font-size: 30px;
+    color: #1b63d1;
+    font-weight: 700;
+    text-decoration: none;
+}
+ 
+.course-container ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    list-style: none;
+    padding: 0 10px;
+}
+
+@media (max-width: 450px) {
+    .course-container ul {
+        grid-template-columns: 1fr;
+    }
+}
+
+.course-container li.course-item {
+    background: #FFF;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+    border-radius: 6px;
+    padding: 0;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.course-container li.course-item:hover {
+    background: rgba(57, 68, 179, 0.1);
+    opacity: 0.8;
+}
+
+li.course-item header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+li.course-item header .user-info{
+    width: 300px;
+}
+
+.user-info img{
+    width: 300px;
+    height: 150px;
+    border-radius: 4px;
+}
+
+.user-title {
+    padding: 0 10px;
+    padding-bottom: 20px;
+}
+
+.user-title strong {
+    display: block;
+    margin: 20px 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.user-title .user-description span {
+    font-size: 15px;
+    color: #999;
+    margin: 10px 0;
+}
+
+li .course-item p {
+    font-size: 14px;
+    color: #666;
+    line-height: 20px;
+    margin: 10px 0 ;
+}
+
+/* li.course-item  button {
+    width: 100%;
+    border: 0;
+    margin-top: 10px;
+    background: #1b63d1;
+    border-radius: 2px;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFF;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+li.course-item button:hover {
+    background: #feb92e;
+    box-shadow: 1px 1px 20px 1px #888888;
+} */

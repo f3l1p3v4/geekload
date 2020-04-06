@@ -4,6 +4,7 @@
     width: 100%;
     padding: 5px;
     background-color: #feb92e;
+    box-shadow: 0 1px 10px -2px gray;
 }
 
 .navbar {
