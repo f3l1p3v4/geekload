@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 
 import logo from '../assets/logo.png';
 
+import Drawer from  '../components/MenuOverlay/Drawertogglebutton';
+
 class Header extends Component {
   render() {
     return (
@@ -27,11 +29,16 @@ class Header extends Component {
               </li>
             </ul>
           </div>
+          
+          <div className="spacer-button" />
 
           <div className="btn">
             <button className="btn-1">Login</button>
             <button className="btn-2">Cadastrar-se</button>
           </div>
+
+          <Drawer className="drawer" />
+
         </nav>
       </header>
     )

@@ -72,6 +72,12 @@
     flex: 1;
 }
 
+@media (max-width:610px) {
+    .spacer {
+        display: none;
+}
+}
+
 .btn {
     display: flex;
     align-items: center; 
@@ -118,4 +124,10 @@
 .btn-2:hover,
 .btn-2:focus {
     opacity: 0.8;
+}
+
+@media (max-width: 610px) {
+    .spacer-button {
+        flex: 1;
+    } 
 }
