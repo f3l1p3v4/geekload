@@ -50,7 +50,7 @@ class Presentation extends Component {
                 </div>
                 <section class="presentation-container">
                     <div>
-                        <h1>VOCÊ NUNCA SAI PERDENDO QUANDO GANHA <h1 style={{ color: '#feb92e', fontSize: 75 }}>CONHECIMENTO.</h1> </h1>
+                        <h1>VOCÊ NUNCA SAI PERDENDO QUANDO GANHA <h1>CONHECIMENTO.</h1> </h1>
                         <p>Transforme a sua vida e a de milhares, milhões ou até bilhões de pessoas com programação.</p>
                         <Link to="/courses">Invista em você</Link>
                     </div><img src={developer} alt="Developer" className="presentation-img" />

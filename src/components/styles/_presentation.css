@@ -60,14 +60,59 @@
     justify-content: center;
 }
 
+@media (max-width:610px) {
+    .presentation .presentation-container {
+        flex-direction: column-reverse;
+}
+}
+
 .presentation .presentation-container>div {
     width: calc(50% - 80px);
 }
+
+@media (max-width:700px) {
+    .presentation .presentation-container>div {
+        padding: 50px;
+        width: 100%;
+        text-align: center;
+}
+}
+
+/* @media (max-width:700px) {
+    .presentation .presentation-container>div {
+
+}
+} */
 
 .presentation .presentation-container>div h1 {
     color: #1b63d1;
     font-size: 4em;
     line-height: 1.3em;
+}
+
+
+@media (max-width:1340px) {
+    .presentation .presentation-container>div h1 {
+        font-size: 3em;
+}
+}
+
+@media (max-width:1010px) {
+    .presentation .presentation-container>div h1 {
+        font-size: 2em;
+}
+}
+
+.presentation .presentation-container>div h1 h1{
+    color: #feb92e;
+    font-size: 1.3em;
+    line-height: 1.3em;
+}
+
+@media (max-width:400px) {
+    .presentation .presentation-container>div h1 h1 {
+        font-size: 1em;
+}
 }
 
 .presentation .presentation-container>div p {
@@ -94,22 +139,24 @@
     transition: all linear 150ms;
 }
 
+@media (max-width:400px) {
+    .presentation .presentation-container>div a {
+        width: 100%;
+        font-size: 20px;
+}
+}
 .presentation .presentation-container>div a:hover,
 .presentation .presentation-container>div a:focus {
     opacity: 0.9;
 }
 
-@media (max-width:700px) {
-    .presentation .presentation-container>div {
-        width: 100%;
-        text-align: center;
-    }
-
-    .presentation .presentation-container>img {
-        display: none;
-    }
-}
 
 .presentation .presentation-container .presentation-img {
     width: 40%;
+}
+
+@media (max-width:400px) {
+    .presentation .presentation-container .presentation-img {
+        width: 60%;
+}
 }
