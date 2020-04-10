@@ -1,0 +1,61 @@
+.contact-container {
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container .content {
+    width: 100%;
+    padding: 96px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-container .content section {
+    width: 100%;
+    max-width: 580px;
+}
+
+.contact-container .content section h1 {
+    color: #1b63d1;
+    margin: 64px 0 32px;
+    font-size: 32px;
+}
+
+.contact-container .content section p {
+    font-size: 18px;
+    color: #737380;
+    line-height: 32px;
+}
+
+.contact-container .content form {
+    width: 100%;
+    max-width: 650px;
+    margin-left: 30px;
+}
+
+
+.contact-container .content form input,
+.contact-container .content form textarea {
+    margin-top: 8px;
+}
+
+.contact-container .content form textarea {
+    margin-top: 8px;
+}
+
+
+.contact-container .content form .input-group {
+    display: flex;
+}
+
+
+.contact-container .content form .input-group input + input {
+    margin-left: 8px;
+}

@@ -125,10 +125,10 @@
 .presentation .presentation-container>div a {
     display: inline-block;
     margin: 15px 0 0;
-    width: 250px;
+    width: 350px;
     padding: 0 30px;
     line-height: 50px;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 600;
     -webkit-text-decoration: none;
     text-decoration: none;
@@ -139,9 +139,17 @@
     transition: all linear 150ms;
 }
 
-@media (max-width:400px) {
+@media (max-width:910px) {
     .presentation .presentation-container>div a {
-        width: 100%;
+        width: 250px;
+        padding: 0 10px;
+        font-size: 14px;
+}
+}
+
+@media (max-width:610px) {
+    .presentation .presentation-container>div a {
+        width: 80%;
         font-size: 20px;
 }
 }

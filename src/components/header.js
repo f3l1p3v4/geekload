@@ -22,20 +22,18 @@ class Header extends Component {
                 <Link to="/">Início</Link>
               </li>
               <li>
+                <Link to="/courses">Quem somos</Link>
+              </li>
+              <li>
                 <Link to="/courses">Cursos</Link>
               </li>
               <li>
-                <Link to="https://www.google.com/">Blog</Link>
+                <Link to="/contact">Contato</Link>
               </li>
             </ul>
           </div>
           
           <div className="spacer-button" />
-
-          <div className="btn">
-            <button className="btn-1">Login</button>
-            <button className="btn-2">Cadastrar-se</button>
-          </div>
 
           <Drawer className="drawer" />
 
