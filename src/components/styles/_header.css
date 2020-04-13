@@ -45,6 +45,7 @@
     cursor: pointer;
     color: #FFF;
     transition: 0.5s;
+    font-size: 1.3em;
 }
 
 .navbar-menu ul li a:before {

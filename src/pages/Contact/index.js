@@ -16,7 +16,7 @@ export default function Contact() {
             <img src={Information} alt="Contact" />
 
             <h1>Fale conosco</h1>
-            <p>Fale o que achou da <strong>DevLoad</strong> e nos conte se podemos melhorar para juntos mudarmos a vida de muitos.</p>
+            <p>Fale o que achou da <strong style={{color: '#feb92e'}}>DevLoad</strong> e nos conte se podemos melhorar para juntos mudarmos a vida de muitos.</p>
           </section>
 
           <form onSubmit={() => { }}>
@@ -41,19 +41,6 @@ export default function Contact() {
             // value={description}
             // onChange={e => setDescription(e.target.value)}
             />
-            <div className="input-group">
-              <input
-                placeholder="Cidade"
-              // value={city}
-              // onChange={e => setCity(e.target.value)}
-              />
-              <input
-                placeholder="UF"
-                style={{ width: 80 }}
-              // value={uf}
-              // onChange={e => setUf(e.target.value)}
-              />
-            </div>
 
             <button className="button" type="submit" >Cadastrar</button>
           </form>

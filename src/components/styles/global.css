@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,800&display=swap');
 
-@import "./_header.css";
+@import './_header.css';
 @import './_presentation.css';
+@import './_courses.css';
 
 * {
     margin: 0;
@@ -35,6 +36,7 @@ form input {
 form textarea {
     width: 100%;
     min-width: 140px;
+    height: 120px;
     resize: vertical;
     color: #333;
     border: 1px solid #feb92e;
