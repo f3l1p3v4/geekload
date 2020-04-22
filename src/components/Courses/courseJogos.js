@@ -7,7 +7,7 @@ import estrela from '../../assets/estrela.jpg';
 
 export default function Courses() {
     const [courses, setCourses] = useState([]);
-    const category = "React";
+    const category = "Jogos";
 
     useEffect(() => {
         async function loadCourses() {

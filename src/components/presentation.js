@@ -21,7 +21,7 @@ class Presentation extends Component {
                         </li>
                         <li>
                             <a
-                                href="https://www.google.com/"
+                                href="https://www.instagram.com/geekload_oficial/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >

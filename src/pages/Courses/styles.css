@@ -33,6 +33,10 @@ a {
     color: #1b63d1;
 }
 
+.carousel-container {
+    position: relative;
+}
+
 #projects {
     /* padding-bottom: 2em; */
     width: 100%;
