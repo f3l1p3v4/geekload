@@ -14,6 +14,8 @@ export default function Courses() {
                 headers: { category }
             });
 
+            alert(response.data);
+
             setCourses(response.data);
         }
 
