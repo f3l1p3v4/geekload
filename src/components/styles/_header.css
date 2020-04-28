@@ -32,6 +32,12 @@
     display: flex;
 }
 
+@media (max-width:610px) {
+    .navbar-menu ul {
+        display: none;
+    }
+}
+
 .navbar-menu ul li {
     display: flex;
     align-items: center;
