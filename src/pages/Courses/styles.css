@@ -17,32 +17,14 @@
 
 @media (max-width:610px) {
     .course-title h1  {
-        text-align: center;
-    }
-}
-
-.course-title h2 {
-    width: 100%;
-    max-width: 1470px;
-    font-weight: 700;
-    line-height: 1.2;
-    letter-spacing: -0.02rem;
-    font-size: 2em;
-    text-align: left;
-    margin: 20px auto;
-    color: #444; 
-}
-
-@media (max-width:610px) {
-    .course-title h2  {
-        text-align: center;
+        font-size: 2em;
     }
 }
 
 .course-definition {
     width: 100%;
     max-width: 1470px;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 1.2;
     letter-spacing: -0.02rem;
     font-size: 1.8em;
@@ -55,7 +37,7 @@
 
 @media (max-width:610px) {
     .course-definition  {
-        text-align: center;
+        font-size: 1.5em;
     }
 }
   
@@ -63,7 +45,7 @@
     text-decoration: none;
     font-size: 1em;
     font-weight: bold;
-    color: #1b63d1;
+    color: #444;
 }
 
 .wrapper {
@@ -127,11 +109,17 @@
     font-size: 6em;
     background: rgb(255, 255, 255);
     width: 120px;
-    height: 150px;
-    padding: 20px ;
+    height: 140px;
+    padding: 10px 20px ;
     text-align: center;
     z-index: 1;
     transition: 300ms all;
+}
+
+@media (max-width:1000px) {
+    .wrapper section  {
+        grid-template-columns: repeat(14, calc(30% - 10px * 2));
+    }
 }
 
 @media (max-width:610px) {
@@ -151,7 +139,7 @@
 }
 
 .wrapper section a:hover {
-    transform: scale(1.2);
+    width: 100px;
 }
   
   
