@@ -17,9 +17,31 @@
     align-items: center;
 }
 
+@media (max-width:750px) {
+    .contact-container .content  {
+        display: flow-root;
+        justify-content: center;
+        padding: 30px 30px 0 30px;
+    }
+}
+
 .contact-container .content section {
     width: 100%;
-    max-width: 580px;
+    max-width: 650px;
+}
+
+@media (max-width:750px) {
+    .contact-container .content section {
+        justify-content: center;
+        padding: 30px 30px 0 30px;
+        align-items: center;
+    }
+}
+
+.contact-container .content section img{
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
 }
 
 .contact-container .content section h1 {
@@ -38,6 +60,7 @@
     width: 100%;
     max-width: 650px;
     margin-left: 30px;
+    margin-bottom: 100px;
 }
 
 

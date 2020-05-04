@@ -18,34 +18,27 @@ export default function Contact() {
 
           <div className="about-text">
             <div>
-              <h1>QUEM SOMOS</h1>
-              <p>O estúdio de design ID7 Studio é especializado na criação visual de empresas e profissionais
-                autônomos. Trata-se de uma empresa de capital fechado constituída de multi-talentosos designers, 
-                desenvolvedores web e profissionais de marketing. Design é fator fundamental no novo cenário competitivo 
-                mundial agregando valor e aumentan do significativamente a qualidade percebida nos produtos e serviços. 
-                Ele agrega valor ao produto e desencadeia um processo de estímulos visuais tanto em seu cliente potencial 
-                quanto nos próprios funcionários criando uma marca forte e bem sucedida.</p>
-              {/* <Link to="/courses">Eu quero investir em conhecimento!</Link> */}
+              <section>
+                <h1>QUEM SOMOS</h1>
+                <p>A GeekLoad é um dos maiores realizadores de sonho do mercado digital de aprendizado e instrução.
+                Trata-se de uma empresa que visa construir estudantes em desenvolvedores, designers e tudo relacionado a tecnologia, afinal
+              estamos vivendo na era da tecnologia onde empresas e pessoas respiram isso.</p>
+              </section>
             </div>
           </div>
         </div>
       </div>
       <div className="about-info">
-          <section>
-            <h1>Missão</h1>
-            <p>Fale o que achou da e nos conte se podemos melhorar para juntos mudarmos a vida de muitos.</p>
-          </section>
+        <section>
+          <h1>Missão</h1>
+          <p>Transformar os sonhos de nossos clientes em realidade, fornecendo infoprodutos de qualidade, através de cursos profissionalizantes.</p>
+        </section>
 
-          <section>
-            <h1>Visão</h1>
-            <p>Fale o que achou da e nos conte se podemos melhorar para juntos mudarmos a vida de muitos.</p>
-          </section>
-
-          <section>
-            <h1>Valores</h1>
-            <p>Fale o que achou da e nos conte se podemos melhorar para juntos mudarmos a vida de muitos.</p>
-          </section>
-        </div>
+        <section>
+          <h1>Visão</h1>
+          <p>Ser a melhor empresa de educação e mudança de vida do Brasil</p>
+        </section>
+      </div>
     </>
   );
 }
