@@ -16,7 +16,7 @@ export default function Contact() {
             <img src={Information} alt="Contact" />
 
             <h1>Fale conosco</h1>
-            <p>Fale o que achou da <strong style={{color: '#feb92e'}}>DevLoad</strong> e nos conte se podemos melhorar para juntos mudarmos a vida de muitos.</p>
+            <p>Fale o que achou da <strong style={{color: '#feb92e'}}>GeekLoad</strong> e nos conte se podemos melhorar para juntos mudarmos a vida de muitos.</p>
           </section>
 
           <form onSubmit={() => { }}>
