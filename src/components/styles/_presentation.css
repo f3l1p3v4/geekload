@@ -1,6 +1,13 @@
 .presentation {
-    padding: 60px 0;
-    margin: 0 20px;
+    padding: 60px 20px;
+    margin: 0 auto;
+    max-width: 1380px;
+}
+
+@media (max-width:480px) {
+    .presentation {
+        padding: 20px;
+}
 }
 
 .link-social {   
@@ -72,7 +79,7 @@
 
 @media (max-width:700px) {
     .presentation .presentation-container>div {
-        padding: 50px;
+        padding: 30px;
         width: 100%;
         text-align: center;
 }
@@ -127,8 +134,8 @@
     display: inline-block;
     margin: 15px 0 0;
     width: 350px;
-    padding: 0 30px;
-    line-height: 50px;
+    padding: 20px;
+    line-height: 1.2;
     font-size: 18px;
     font-weight: 600;
     -webkit-text-decoration: none;
@@ -143,14 +150,14 @@
 @media (max-width:910px) {
     .presentation .presentation-container>div a {
         width: 250px;
-        padding: 0 10px;
         font-size: 14px;
+        padding: 10px;
 }
 }
 
 @media (max-width:610px) {
     .presentation .presentation-container>div a {
-        width: 80%;
+        width: 100%;
         font-size: 20px;
 }
 }
@@ -164,8 +171,8 @@
     width: 40%;
 }
 
-@media (max-width:400px) {
+@media (max-width:500px) {
     .presentation .presentation-container .presentation-img {
-        width: 60%;
+        width: 80%;
 }
 }

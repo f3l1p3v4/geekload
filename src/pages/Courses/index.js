@@ -1,15 +1,29 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import api from '../../services/api';
 
-import CourseFrontend from '../../components/Courses/courseFrontend';
-import CourseBackend from '../../components/Courses/courseBackend';
-import CourseMobile from '../../components/Courses/courseMobile';
-import CourseJogos from '../../components/Courses/courseJogos';
+import Course from '../../components/Courses/course';
 
 import Header from '../../components/header';
 
 import './styles.css';
 
 function Coursos() {
+    const [courses, setCourses] = useState([]);
+
+    useEffect(() => {
+        async function loadCourses() {
+            const response = await api.get('/courses', {
+                headers: {
+                    category: "Jogos"
+                }
+            });
+
+            setCourses(response.data);
+        }
+
+        loadCourses();
+    }, []);
+
     return (
         <>
             <Header />
@@ -22,7 +36,9 @@ function Coursos() {
             <div className="wrapper">
                 <section>
                     <a href="#aventura-1587755079908.png">‹</a>
-                        <CourseJogos />
+                    {courses.map(course => (
+                        <Course key={course._id} course={course} />
+                    ))}
                     <a href="#VINGADORES-ULTIMATO-2019-1587910404576.jpg">›</a>
                 </section>
             </div>

@@ -1,29 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import api from '../../services/api';
 
 import estrela from '../../assets/estrela.jpg';
 
-export default function Courses() {
-    const [courses, setCourses] = useState([]);
-    const category = "Jogos";
-
-    useEffect(() => {
-        async function loadCourses() {
-            const response = await api.get('/courses', {
-                headers: { category }
-            });
-
-            setCourses(response.data);
-        }
-
-        loadCourses();
-    }, []);
-
+export default function Courses({ course }) {
     return (
         <>
-            {courses.map(course => (
-                <div key={course._id} className="item" id={course.image}>
+                <div className="item" id={course.image}>
                     <div className="course-image">
                         <img src={course.image_url} />
                     </div>
@@ -46,7 +29,6 @@ export default function Courses() {
                         </div>
                     </header>
                 </div>
-            ))}
         </>
     );
 }

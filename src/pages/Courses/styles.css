@@ -15,7 +15,7 @@
     padding-left: 20px;
 }
 
-@media (max-width:610px) {
+@media (max-width:480px) {
     .course-title h1  {
         font-size: 2em;
     }
@@ -29,13 +29,13 @@
     letter-spacing: -0.02rem;
     font-size: 1.8em;
     text-align: left;
-    margin: 20px auto;
+    margin: 20px auto 0;
     margin-bottom: 0;
     color: #444; 
     padding-left: 20px;
 }
 
-@media (max-width:610px) {
+@media (max-width:480px) {
     .course-definition  {
         font-size: 1.5em;
     }
@@ -53,9 +53,9 @@
     max-width: 1470px;
     display: grid;
     grid-template-columns: var(--gutter) 1fr var(--gutter);
-    padding: var(--gutter) 0 0 20px;
+    padding: 0 0 var(--gutter) 20px;
     align-content: start;
-    margin: var(--gutter) auto;
+    margin: var(--gutter) auto 0;
 
 }
 
@@ -80,10 +80,6 @@
     scroll-behavior: smooth;
 }
 
-::-webkit-scrollbar {
-    width: 0px;
-}
-
 @media (max-width:1000px) {
     .wrapper section  {
         grid-template-columns: repeat(14, calc(30% - 10px * 2));
@@ -92,14 +88,18 @@
 
 @media (max-width:610px) {
     .wrapper section  {
-        grid-template-columns: repeat(14, calc(70% - var(--gutter) * 2));
+        grid-template-columns: repeat(14, calc(70% - 20px * 2));
     }
 }
 
 @media (max-width:480px) {
     .wrapper section  {
-        grid-template-columns: repeat(14, calc(80% - var(--gutter) * 2));
+        grid-template-columns: repeat(14, calc(80% - 20px * 2));
     }
+}
+
+::-webkit-scrollbar {
+    width: 0px;
 }
 
 .wrapper section a {
@@ -114,12 +114,6 @@
     text-align: center;
     z-index: 1;
     transition: 300ms all;
-}
-
-@media (max-width:1000px) {
-    .wrapper section  {
-        grid-template-columns: repeat(14, calc(30% - 10px * 2));
-    }
 }
 
 @media (max-width:610px) {

@@ -12,7 +12,7 @@ class Presentation extends Component {
                     <ul>
                         <li>
                             <a
-                                href="https://www.google.com/"
+                                href="https://www.facebook.com/geekloadoficial/?modal=admin_todo_tour"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
@@ -39,7 +39,7 @@ class Presentation extends Component {
                         </li>
                         <li>
                             <a
-                                href="https://www.google.com/"
+                                href="https://www.youtube.com/channel/UC4kbo7q2grJ737nbhlY-YIA?view_as=subscriber"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
