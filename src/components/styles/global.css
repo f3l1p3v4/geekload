@@ -3,6 +3,7 @@
 @import './_header.css';
 @import './_presentation.css';
 @import './_courses.css';
+@import './_footer.css';
 
 * {
     margin: 0;
