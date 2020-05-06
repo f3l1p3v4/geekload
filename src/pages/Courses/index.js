@@ -5,6 +5,8 @@ import Header from '../../components/header';
 import Course from '../../components/course';
 import Footer from '../../components/footer';
 
+import arcade from '../../assets/featured/capaSite.png';
+
 import './styles.css';
 
 function Coursos() {
@@ -27,9 +29,21 @@ function Coursos() {
     return (
         <>
             <Header />
+
+            <div className="course-slider">
+                <ul className="slider">
+                    <a href="/courses">
+                        <li>
+                            <img src={arcade} />
+                        </li>
+                    </a>
+                </ul>
+            </div>
+
             <div className="course-title">
                 <h1>Bem-vindo(a) a GeekLoad</h1>
             </div>
+
             <h2 className="course-definition">
                 Cursos em destaque de <a href="">Desenvolvimento de Games</a>
             </h2>
