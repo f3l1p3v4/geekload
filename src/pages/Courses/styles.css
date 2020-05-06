@@ -50,6 +50,7 @@
 
 .wrapper {
     width: 100%;
+    position: relative;
     max-width: 1470px;
     display: grid;
     grid-template-columns: var(--gutter) 1fr var(--gutter);
@@ -106,7 +107,7 @@
     position: absolute;
     color: #fff;
     text-decoration: none;
-    font-size: 6em;
+    font-size: 5.5em;
     background: rgb(255, 255, 255);
     width: 120px;
     height: 140px;
@@ -114,6 +115,30 @@
     text-align: center;
     z-index: 1;
     transition: 300ms all;
+}
+
+@media (max-width:1220px) {
+    .wrapper section a {
+        font-size: 4.8em;
+    }
+}
+
+@media (max-width:1100px) {
+    .wrapper section a {
+        font-size: 4em;
+    }
+}
+
+@media (max-width:1000px) {
+    .wrapper section a {
+        font-size: 6em;
+    }
+}
+
+@media (max-width:800px) {
+    .wrapper section a {
+        font-size: 4.5em;
+    }
 }
 
 @media (max-width:610px) {
