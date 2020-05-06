@@ -39,7 +39,7 @@ header .course-info{
     text-align: left;
 }
 
-.course-info strong {
+.item header .course-info p {
     display: block!important;
     display: -webkit-box!important;
     -webkit-line-clamp: 2;
@@ -56,12 +56,19 @@ header .course-info{
     text-overflow: ellipsis;
     white-space: normal;
     font-weight: 700;
-    height: 48px;
-    font-size: 1.4em;
+    height: 40px;
+    font-size: 1.2em;
     color: #29303b;
 }
 
-.course-info span {
+@media (max-width:750px) {
+    .item header .course-info p  {
+        font-size: 1.3em;
+        height: 44px;
+    }
+}
+
+.item header .course-info span {
     font-size: 1.1em;
     color: #999;
     display: block!important;
@@ -82,24 +89,17 @@ header .course-info{
     height: 38px;
 }
 
-.course-info .price {
-    display: flex;
+.item header .course-info .instructor span {
+    font-size: 1em;
+    padding-top: 8px;
 }
 
-.course-info .price p {
-    padding: 5px 2px;
-    color: #737380;
-    line-height: 21px;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-.instructor {
-    width: 100%;
-    display: flex;
-}
-
-.instructor p {
-    font-size: 14px;
-    color: #0bb357;
+.item .position {
+    background-color: #59cf00;
+    padding: 8px 0;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #fff;
 }

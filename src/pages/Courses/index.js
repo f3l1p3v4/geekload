@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import api from '../../services/api';
 
-import Course from '../../components/Courses/course';
-
 import Header from '../../components/header';
+import Course from '../../components/course';
 import Footer from '../../components/footer';
 
 import './styles.css';
