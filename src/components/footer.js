@@ -1,23 +1,22 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const Footer = () => (
     <footer>
         <div className="social-container">
-            <Link to="/about"
+            <a href="/about"
             >
                 <p>Quem somos</p>
-            </Link>
-            <Link
-                to="/"
+            </a>
+            <a
+                href="/"
             >
                 <p>Termos</p>
-            </Link>
-            <Link
-                to="/"
+            </a>
+            <a
+                href="/"
             >
                 <p>Política de Privacidade</p>
-            </Link>
+            </a>
         </div>
         <p>© {new Date().getFullYear()}, Copyright. Site desenvolvido por Felipe Valdez</p>
     </footer>
