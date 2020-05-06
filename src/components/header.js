@@ -3,39 +3,70 @@ import { Link } from 'react-router-dom';
 
 import logo from '../assets/logo.png';
 
-import Drawer from  '../components/MenuOverlay/Drawertogglebutton';
+import Drawer from '../components/MenuOverlay/Drawertogglebutton';
+import MenuOverlay from "./MenuOverlay/menuOverlay";
+
+// if (typeof window !== "undefined") {
+//   // eslint-disable-next-line global-require
+//   require("smooth-scroll")('a[href*="#"]')
+// }
 
 class Header extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      menuOverlayOpen: false,
+    }
+    this.overlayToggleClickHandler = this.overlayToggleClickHandler.bind(this)
+  }
+
+  overlayToggleClickHandler = () => {
+    this.setState(prevState => ({
+      menuOverlayOpen: !prevState.menuOverlayOpen,
+    }))
+  }
+
+  overlayCloseClickHandler = () => {
+    this.setState({ menuOverlayOpen: false })
+  }
+
   render() {
     return (
-      <header className="nav">
-        <nav className="navbar">
-          <div >
-            <a href="/">
-              <img src={logo} alt="Logo DevLoad" className="logo" />
-            </a>
-          </div>
-          <div className="spacer" />
-          <div className="navbar-menu">
-            <ul>
-              <li>
-                <Link to="/">Início</Link>
-              </li>
-              <li>
-                <Link to="/courses">Cursos</Link>
-              </li>
-              <li>
-                <Link to="/contact">Contato</Link>
-              </li>
-            </ul>
-          </div>
-          
-          <div className="spacer-button" />
+      <>
+        <MenuOverlay
+          click={this.overlayCloseClickHandler}
+          show={this.state.menuOverlayOpen}
+        />
 
-          <Drawer className="drawer" />
+        <header className="nav">
+          <nav className="navbar">
+            <div >
+              <a href="/">
+                <img src={logo} alt="Logo DevLoad" className="logo" />
+              </a>
+            </div>
+            <div className="spacer" />
+            <div className="navbar-menu">
+              <ul>
+                <li>
+                  <Link to="/">Início</Link>
+                </li>
+                <li>
+                  <Link to="/courses">Cursos</Link>
+                </li>
+                <li>
+                  <Link to="/contact">Contato</Link>
+                </li>
+              </ul>
+            </div>
 
-        </nav>
-      </header>
+            <div className="spacer-button" />
+
+            <Drawer className="drawer" click={this.overlayToggleClickHandler} />
+
+          </nav>
+        </header>
+      </>
     )
   }
 }
