@@ -1,0 +1,115 @@
+.about-course-container {
+    width: 100%;
+    max-width: 1420px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-course-container .about-course-content {
+    width: 100%;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+
+}
+
+.about-course-container .about-course-content .player-wrapper {
+    width: 60%;
+    padding: 60px;
+    padding-right: 0;
+}
+
+.about-course-container .about-course-content .player-wrapper .react-player {
+    background-size: cover;
+    background-position: center center;
+}
+
+.about-course-container .about-course-content .about-course-info {
+    width: 35%;
+    box-shadow: rgba(41, 98, 182, 0.20) 0px 2px 16px;
+    border-radius: 4px;
+    margin: 60px;
+}
+
+.about-course-container .about-course-content .about-course-info .flex-col {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    /* -ms-flex-direction: column; */
+    flex-direction: column;
+}
+
+.about-course-container .about-course-content .about-course-info .flex-col .flex {
+    display: -webkit-box;
+    /* display: -ms-flexbox; */
+    display: flex;
+}
+
+.about-course-container .about-course-content .about-course-info .flex-col .justify-between {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.about-course-container .about-course-content .about-course-info .mt-16 {
+    margin-top: 16px;
+}
+
+.about-course-container .about-course-content .about-course-info .mt-16 .about-price {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-course-container .about-course-content .about-course-info .mt-16 .about-price p {
+    -webkit-font-smoothing: antialiased;
+    font-weight: unset;
+}
+
+
+.about-course-container .about-course-content .about-course-info .mt-16 .about-price p .text-red-1 {
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    font-size: 18px;
+    color: #FF5C63;
+    font-weight: 800;
+}
+.about-course-container .about-course-content .about-course-info .mt-16 .about-price p .text-red-2 {
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+    color: #FF5C63;
+    margin-left: 4px;
+    font-weight: 800;
+}
+
+.about-course-container .about-course-content .about-course-info .mt-16 .about-price .text-gray-dark {
+    font-size: 14px;
+    color: #8D8D9D;
+    line-height: 20px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: unset;
+}
+
+.about-course-container .about-course-content .about-course-info .mt-16 .about-price .text-gray-dark-bold {
+    text-decoration: line-through;
+    font-size: 14px;
+    color: #8D8D9D;
+    line-height: 20px;
+    font-weight: 800;
+    -webkit-font-smoothing: antialiased;
+    font-weight: unset;
+}
+
+.about-course-container .about-course-content .about-course-info .mt-16 .about-price .text-gray-dark2 {
+    font-size: 14px;
+    color: #8D8D9D;
+    line-height: 20px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: unset;
+}
+

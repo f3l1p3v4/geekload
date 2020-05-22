@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import api from '../../services/api';
+import { Link } from 'react-router-dom';
 
 import Header from '../../components/header';
 import Course from '../../components/course';
@@ -88,9 +89,9 @@ function Coursos() {
             <div className="wrapper">
                 <section>
                     {/* <a href="#aventura-1587755079908.png">‹</a> */}
-                    {courses.map(course => (
-                        <Course key={course._id} course={course} />
-                    ))}
+                        {courses.map(course => (
+                            <Course key={course._id} course={course} />
+                        ))}
                     {/* <a href="#VINGADORES-ULTIMATO-2019-1587910404576.jpg">›</a> */}
                 </section>
             </div>

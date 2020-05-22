@@ -5,6 +5,7 @@ import Home from './Home';
 import Courses from './pages/Courses';
 import Contact from './pages/Contact';
 import About from './pages/About';
+import AboutCourse from './pages/AboutCourse';
 
 export default function Routes() {
     return (
@@ -14,6 +15,7 @@ export default function Routes() {
                 <Route path="/courses" component={Courses} />
                 <Route path="/contact" component={Contact} />    
                 <Route path="/about" component={About} />    
+                <Route path="/aboutcourse" component={AboutCourse} />    
             </Switch>
         </BrowserRouter>
     );
