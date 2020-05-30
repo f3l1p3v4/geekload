@@ -1,34 +1,32 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect} from 'react';
 import api from '../../services/api';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 import Header from '../../components/header';
+import Slider from '../Slider';
 import Course from '../../components/course';
 import Footer from '../../components/footer';
-
-import slide1 from '../../assets/featured/slide1.jpg';
-import slide2 from '../../assets/featured/slide2.jpg';
-
 
 import './styles.css';
 
 function Coursos() {
     const [courses, setCourses] = useState([]);
-    const [images, setImages] = useState([]);
+    // const [images, setImages] = useState([]);
+    // const [selected, setSelected] = useState([]);
 
-    const wrapperRef = useRef(null);
+    // const wrapperRef = useRef(null);
 
-    useEffect(() => {
+    // useEffect(() => {
 
-        const currentImages = Array.from(wrapperRef.current.children);
+    //     const currentImages = Array.from(wrapperRef.current.children);
 
-        setImages(currentImages);
+    //     setImages(currentImages);
 
-    }, []);
+    // }, []);
 
-    let time = 5000,
-        currentImageIndex = 0,
-        max = images.length;
+    // let time = 5000,
+    //     currentImageIndex = 0,
+    //     max = images.length;
 
     useEffect(() => {
         async function loadCourses() {
@@ -45,38 +43,36 @@ function Coursos() {
 
     }, []);
 
-    function nextImage() {
+    // function nextImage() {
 
-        // console.log(images[1])
+        // console.log(images[currentImageIndex])
 
-        // images[currentImageIndex].classList.remove("selected");
+        // let currentImage = images[currentImageIndex];
+
+        // currentImage.removeClass("selected");
 
         // currentImageIndex++
 
         // if (currentImageIndex >= max)
         //     currentImageIndex = 0
 
-        // images[currentImageIndex].classList.add("selected");
-    }
+        // images[currentImageIndex].addClass("selected");
+    // }
 
-    function start() {
-        setInterval(() => {
-            // troca de image
-            nextImage()
-        }, time)
-    }
+    // function start() {
+    //     setInterval(() => {
+    //         nextImage()
+    //     }, time)
+    // }
 
-    window.addEventListener("load", start)
+    // window.addEventListener("load", start);
 
     return (
         <>
             <Header />
 
-            <div>
-                <div ref={wrapperRef} id="slider">
-                    <img className="selected" src={slide2} />
-                    <img src={slide2} />
-                </div>
+            <div style={{maxWidth: 1400, margin: 'auto'}}> 
+                <Slider />
             </div>
 
             <div className="course-title">

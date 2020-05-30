@@ -1,11 +1,12 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-import Home from './Home';
+import Home from './pages/Home';
 import Courses from './pages/Courses';
 import Contact from './pages/Contact';
 import About from './pages/About';
 import AboutCourse from './pages/AboutCourse';
+import Slider from './pages/Slider';
 
 export default function Routes() {
     return (
@@ -15,6 +16,7 @@ export default function Routes() {
                 <Route path="/courses" component={Courses} />
                 <Route path="/contact" component={Contact} />    
                 <Route path="/about" component={About} />    
+                <Route path="/slider" component={Slider} />    
                 <Route path="/aboutcourse" component={AboutCourse} />    
             </Switch>
         </BrowserRouter>

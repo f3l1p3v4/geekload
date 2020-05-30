@@ -8,6 +8,8 @@
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.19.2",
     "cors": "^2.8.5",
+    "gh-pages": "^2.2.0",
+    "infinite-react-carousel": "^1.2.11",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-icons": "^3.9.0",
