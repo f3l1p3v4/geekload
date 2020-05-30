@@ -53,7 +53,7 @@ function AboutCourse() {
                     <span className="text-gray-dark2">Economize</span>
                     <span className="text-gray-dark2">R$209.01 (74%)</span>
                   </div>
-                  <button className="button" >Compre agora</button>
+                  <a href="https://pay.hotmart.com/H11831014O?checkoutMode=0&bid=1590880141721" className="button" >Compre agora</a>
                 </div>
               </div>
             </div>
