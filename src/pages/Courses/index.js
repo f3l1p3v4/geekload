@@ -11,22 +11,6 @@ import './styles.css';
 
 function Coursos() {
     const [courses, setCourses] = useState([]);
-    // const [images, setImages] = useState([]);
-    // const [selected, setSelected] = useState([]);
-
-    // const wrapperRef = useRef(null);
-
-    // useEffect(() => {
-
-    //     const currentImages = Array.from(wrapperRef.current.children);
-
-    //     setImages(currentImages);
-
-    // }, []);
-
-    // let time = 5000,
-    //     currentImageIndex = 0,
-    //     max = images.length;
 
     useEffect(() => {
         async function loadCourses() {
@@ -42,31 +26,7 @@ function Coursos() {
         loadCourses();
 
     }, []);
-
-    // function nextImage() {
-
-        // console.log(images[currentImageIndex])
-
-        // let currentImage = images[currentImageIndex];
-
-        // currentImage.removeClass("selected");
-
-        // currentImageIndex++
-
-        // if (currentImageIndex >= max)
-        //     currentImageIndex = 0
-
-        // images[currentImageIndex].addClass("selected");
-    // }
-
-    // function start() {
-    //     setInterval(() => {
-    //         nextImage()
-    //     }, time)
-    // }
-
-    // window.addEventListener("load", start);
-
+    
     return (
         <>
             <Header />

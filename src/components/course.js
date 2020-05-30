@@ -21,7 +21,7 @@ export default function Courses({ course }) {
                         </div>
                     </header>
                     <div className="position">
-                        Mais vendidos
+                        <a href="/aboutCourse">Mais vendidos</a> 
                     </div>
                 </div>
         </>

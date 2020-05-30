@@ -99,6 +99,10 @@ header .course-info{
     padding: 8px 0;
     border-radius: 4px;
     text-align: center;
+}
+
+.item .position a{
+    text-decoration: none;
     font-size: 1.1em;
     font-weight: 500;
     color: #fff;
