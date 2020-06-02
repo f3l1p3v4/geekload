@@ -17,7 +17,8 @@
 }
 /*====== HEIGHT ======*/
 .screenH {
-    height: 45vh;
+    /* height: 45vh; */
+    height: 300px;
 }
 .fullH {
     height: 100%;
