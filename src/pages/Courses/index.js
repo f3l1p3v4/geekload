@@ -31,7 +31,7 @@ function Coursos() {
         <>
             <Header />
 
-            <div> 
+            <div className="slider"> 
                 <Slider />
             </div>
 
