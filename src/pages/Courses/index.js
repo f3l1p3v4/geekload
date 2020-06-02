@@ -31,7 +31,7 @@ function Coursos() {
         <>
             <Header />
 
-            <div style={{maxWidth: 1400, margin: 'auto'}}> 
+            <div> 
                 <Slider />
             </div>
 
