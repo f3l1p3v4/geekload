@@ -20,6 +20,7 @@ function AboutCourse() {
   return (
     <>
       <Header />
+      <div className="about-course">
       <div className="about-course-container">
         <div className="about-course-content">
           <div className="player-wrapper">
@@ -43,7 +44,7 @@ function AboutCourse() {
             />
           </div>
           <article className="about-course-info">
-            <div style={{ padding: 32 }}>
+            <div>
               <div className="flex-col">
                 <div className="flex justify-between">
                   <h1>Curso Criação de Jogos do ZERO</h1>
@@ -117,9 +118,10 @@ function AboutCourse() {
         <h1>Você vai aprender</h1>
         <div className="description">
           <p>Este é um curso para aprender a usar o Adobe Illustrator do zero! Nessas aulas, você aprenderá das ferramentas mais básicas às mais avançadas do programa.
-O projeto final será uma ilustração contemporânea usando várias ferramentas do Adobe Illustrator. Você realizará diferentes exercícios criativos para desenvolver seu olhar de designer e aprender a integrar suas ilustrações em seus projetos de design gráfico.</p>
+          O projeto final será uma ilustração contemporânea usando várias ferramentas do Adobe Illustrator. Você realizará diferentes exercícios criativos para desenvolver seu olhar de designer e aprender a integrar suas ilustrações em seus projetos de design gráfico.</p>
         </div>
       </section>
+      </div>
       <Footer />
     </>
   );
