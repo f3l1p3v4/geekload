@@ -3,6 +3,16 @@ import ReactPlayer from 'react-player';
 
 import './styles.css';
 
+import {
+  AiOutlineStar,
+  AiOutlinePaperClip,
+  AiOutlineSafetyCertificate
+} from 'react-icons/ai';
+import { GiStopwatch } from 'react-icons/gi';
+import { GoRocket } from 'react-icons/go';
+import { FiMessageCircle } from 'react-icons/fi';
+
+
 import Header from '../../components/header';
 import Footer from '../../components/footer';
 
@@ -60,6 +70,56 @@ function AboutCourse() {
           </article>
         </div>
       </div>
+      <section className="content-info">
+        <h1>Informação</h1>
+        <div className="main-items">
+          <div className="items">
+            <div className="item">
+              <div className="item-icon">
+                <AiOutlineStar />
+              </div>
+              <span>Comece e tremine no seu tempo</span>
+            </div>
+            <div className="item">
+              <div className="item-icon">
+                <AiOutlinePaperClip />
+              </div>
+              <span>75 aulas mais anexos</span>
+            </div>
+            <div className="item">
+              <div className="item-icon">
+                <GiStopwatch />
+              </div>
+              <span>30 horas de vídeo aulas online</span>
+            </div>
+          </div>
+          <div className="items">
+            <div className="item">
+              <div className="item-icon">
+                <GoRocket />
+              </div>
+              <span>Desenvolva 4 projetos reais</span>
+            </div>
+            <div className="item">
+              <div className="item-icon">
+                <AiOutlineSafetyCertificate />
+              </div>
+              <span>Você receberá um certificado de conclusão</span>
+            </div>
+            <div className="item">
+              <div className="item-icon">
+                <FiMessageCircle />
+              </div>
+              <span>Você receberá todo o suporte necessário</span>
+            </div>
+          </div>
+        </div>
+        <h1>Você vai aprender</h1>
+        <div className="description">
+          <p>Este é um curso para aprender a usar o Adobe Illustrator do zero! Nessas aulas, você aprenderá das ferramentas mais básicas às mais avançadas do programa.
+O projeto final será uma ilustração contemporânea usando várias ferramentas do Adobe Illustrator. Você realizará diferentes exercícios criativos para desenvolver seu olhar de designer e aprender a integrar suas ilustrações em seus projetos de design gráfico.</p>
+        </div>
+      </section>
       <Footer />
     </>
   );

@@ -10,11 +10,11 @@
 
 .about-course-container .about-course-content {
     width: 100%;
-    padding: 20px;
+    max-width: 950px;
+    padding-top: 60px;
 
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
 }
 
 @media (max-width: 800px) {
@@ -24,15 +24,8 @@
     }
 }
 
-@media (max-width: 500px) {
-    .about-course-container .about-course-content {
-        padding: 0;
-    }
-}
-
 .about-course-container .about-course-content .player-wrapper {
     width: 65%;
-    padding: 60px;
     padding-right: 0;
 }
 
@@ -52,7 +45,7 @@
     width: 30%;
     box-shadow: rgba(41, 98, 182, 0.2) 0px 2px 16px;
     border-radius: 4px;
-    margin: 60px;
+    /* margin: 60px; */
 }
 
 @media (max-width: 800px) {
@@ -90,7 +83,7 @@
 }
 
 .about-course-container .about-course-content .about-course-info .mt-16 {
-    margin-top: 16px;
+    margin-top: 20px;
 }
 
 .about-course-container .about-course-content .about-course-info .mt-16 .about-price {
@@ -154,7 +147,7 @@
     border-radius: 8px;
     color: #fff;
     font-weight: 700;
-    margin-top: 16px;
+    margin-top: 30px;
     display: inline-block;
     text-align: center;
     text-decoration: none;
@@ -174,3 +167,81 @@
 .about-course-container .about-course-content .about-course-info .mt-16 .btn:hover {
     filter: brightness(90%);
 }
+
+.content-info {
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.content-info h1 {
+    color: #666;
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-size: 1.4rem;
+}
+
+.content-info .main-items {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+@media (min-width: 768px) {
+    .content-info .main-items {
+        flex-wrap: nowrap;
+    }
+}
+
+.content-info .main-items .items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.content-info .main-items .items .item {
+    margin-bottom: 16px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.content-info .main-items .items .item .item-icon {
+    margin-right: 12px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 1.4rem;
+    color: #666;
+}
+
+.content-info .main-items .items .item span {
+    color: #666;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.description {
+    padding: 20px;
+}
+
+.description p {
+    color: #666;
+    font-size: 1rem;
+    line-height: 24px;
+    font-weight: 300;
+}
+
