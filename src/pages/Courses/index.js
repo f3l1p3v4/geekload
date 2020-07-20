@@ -87,11 +87,11 @@ function Coursos() {
             </h2>
             <div className="wrapper">
                 <section>
-                    <a href="#aventura-1587755079908.png">‹</a>
+                    {/* <a href="#aventura-1587755079908.png">‹</a> */}
                     {courses.map(course => (
                         <Course key={course._id} course={course} />
                     ))}
-                    <a href="#VINGADORES-ULTIMATO-2019-1587910404576.jpg">›</a>
+                    {/* <a href="#VINGADORES-ULTIMATO-2019-1587910404576.jpg">›</a> */}
                 </section>
             </div>
             <Footer />
