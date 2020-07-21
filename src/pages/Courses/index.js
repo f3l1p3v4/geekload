@@ -40,7 +40,7 @@ function Coursos() {
             </div>
 
             <h2 className="course-definition">
-                Cursos em destaque de <a href="">Desenvolvimento de Games</a>
+                Cursos em destaque de <a href="/">Desenvolvimento de Games</a>
             </h2>
             <div className="wrapper">
                 <section>

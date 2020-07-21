@@ -1,0 +1,33 @@
+.purchase {
+    margin: 0 auto;
+    max-width: 1480px;
+}
+
+.purchase-section {
+    width: 80%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 20px auto;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.purchase-card {
+    width: 50%;
+    height: 200px;
+    background: rgba(102, 102, 102, 0.185);
+    margin: 0 10px;
+    border-radius: 6px;
+}

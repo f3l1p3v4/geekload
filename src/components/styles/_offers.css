@@ -1,0 +1,12 @@
+.offers {
+    max-width: 1380px;
+    margin: 0 auto;
+}
+
+.offers-section {
+    width: 80%;
+    background: rgba(102, 102, 102, 0.185);
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 6px;
+}

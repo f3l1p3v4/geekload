@@ -49,7 +49,7 @@ class Header extends Component {
             <div className="navbar-menu">
               <ul>
                 <li>
-                  <Link to="/">Início</Link>
+                  <Link to="/">Home</Link>
                 </li>
                 <li>
                   <Link to="/courses">Cursos</Link>
