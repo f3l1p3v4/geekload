@@ -2,14 +2,14 @@
     margin: 0 auto;
     max-width: 1480px;
     margin: 40px 0;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .purchase > h1 {
     color: #1b63d1;
-    font-size: 2.5em;
+    font-size: 2em;
     width: 80%;
-    margin: 20px auto 50px;
+    margin: 20px auto 10px;
 }
 
 .purchase-section {
@@ -30,11 +30,11 @@
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .purchase-card {
-    width: 50%;
+    width: 48%;
     box-shadow: rgba(83, 85, 88, 0.3) 0px 2px 16px;
     margin: 0 10px;
     border-radius: 6px;

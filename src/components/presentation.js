@@ -55,7 +55,8 @@ class Presentation extends Component {
                         <h1><h1>GeekLoad</h1> Faz você pensar fora da caixa. </h1>
                         <p>Transforme a sua vida e a de milhares, milhões ou até bilhões de pessoas com tecnologia.</p>
                         <Link to="/courses">Eu quero investir em conhecimento!</Link>
-                    </div><img src={developer} alt="Developer" className="presentation-img" />
+                    </div>
+                    <img src={developer} alt="Developer" className="presentation-img" />
                 </section>
             </div>
         )

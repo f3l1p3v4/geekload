@@ -15,7 +15,7 @@
     padding: 20px 0;
     align-content: start;
     margin: var(--gutter) auto 0;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .categories-section  > * {
@@ -27,9 +27,9 @@
 }
 
 .categories-section > h1 {
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     color: #1b63d1;
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .categories-section section {
@@ -49,6 +49,10 @@
     overflow: hidden;
     position: relative; 
     border-radius: 6px;
+}
+
+.categories-section .item:hover .categories-image {
+    transition: 1s;
 }
 
 .categories-section .item:hover .categories-image {

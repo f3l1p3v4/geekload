@@ -1,17 +1,33 @@
 .offers {
-    max-width: 1380px;
-    margin: 0 auto;
-}
-
-.offers-section {
     width: 80%;
-    background: rgba(102, 102, 102, 0.469);
-    height: 300px;
-    margin: 0 auto;
-    border-radius: 6px;
+    position: relative;
+    max-width: 1280px;
+    display: grid;
+    grid-template-columns: var(--gutter) 1fr var(--gutter);
+    /* padding: 0 0 0 20px; */
+    align-content: start;
+    margin: var(--gutter) auto 0;
 }
 
-.offers-section:hover {
-    box-shadow: rgba(30, 33, 37, 0.5) 0px 2px 16px;
-    cursor: pointer;
+.offers > * {
+    grid-column: 4 / -4;
+}
+
+.offers > .full {
+    grid-column: 1 / -1;
+}
+
+.offers > h1 {
+    margin-bottom: 10px;
+    color: #1b63d1;
+    font-size: 2em;
+}
+
+.offers section {
+    width: 100%;
+    max-width: 1380px;
+    display: grid;
+    /* grid-gap: calc(var(30px)); */
+    grid-template-columns: repeat(5, calc(20%));
+    /* grid-template-rows: minmax(200px, 1fr); */
 }

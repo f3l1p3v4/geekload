@@ -1,5 +1,5 @@
 .presentation {
-    padding: 60px 20px;
+    padding: 60px 20px 20px;
     margin: 0 auto;
     max-width: 1380px;
 }
@@ -67,6 +67,10 @@
     justify-content: center;
 }
 
+.presentation .presentation-container div {
+    margin-right: 100px;
+}
+
 @media (max-width:610px) {
     .presentation .presentation-container {
         flex-direction: column-reverse;
@@ -113,13 +117,13 @@
 
 .presentation .presentation-container>div h1 h1{
     color: #feb92e;
-    font-size: 1.2em;
+    font-size: 1.5em;
     line-height: 1.3em;
 }
 
 @media (max-width:400px) {
     .presentation .presentation-container>div h1 h1 {
-        font-size: 1em;
+        font-size: 1.1em;
 }
 }
 
