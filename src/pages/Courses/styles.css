@@ -2,9 +2,9 @@
     --gutter: 20px;
 }
 
-.course-title {
+.course {
     width: 100%;
-    max-width: 1470px;
+    max-width: 1000px;
     margin: 20px auto;
 }
 
@@ -69,11 +69,12 @@
 
 .wrapper section {
     width: 100%;
-    max-width: 1470px;
+    max-width: 1380px;
     display: grid;
-    grid-gap: calc(var(--gutter) / 2);
-    grid-template-columns: repeat(6, calc(19% - var(--gutter) * 2));
-    grid-template-rows: minmax(150px, 1fr);
+    /* grid-gap: calc(var(30px)); */
+    grid-template-columns: repeat(5, calc(20%));
+    /* grid-template-rows: minmax(200px, 1fr); */
+    margin-bottom: 40px;
 }
 
 @media (max-width: 1000px) {
