@@ -49,6 +49,7 @@ class Presentation extends Component {
                     </ul>
                 </div>
                 <section class="presentation-container">
+
                     <div>
                         <h1>VOCÊ NUNCA PERDE INVESTIMENTO QUANDO GANHA <h1>CONHECIMENTO.</h1> </h1>
                         <p>Transforme a sua vida e a de milhares, milhões ou até bilhões de pessoas com tecnologia.</p>

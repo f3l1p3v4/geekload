@@ -3,7 +3,6 @@ import api from '../../services/api';
 // import { Link } from 'react-router-dom';
 
 import Header from '../../components/header';
-import Slider from '../Slider';
 import Course from '../../components/course';
 import Footer from '../../components/footer';
 
@@ -30,10 +29,6 @@ function Coursos() {
     return (
         <>
             <Header />
-
-            <div className="slider"> 
-                <Slider />
-            </div>
 
             <div className="course-title">
                 <h1>Bem-vindo(a) a GeekLoad</h1>

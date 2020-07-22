@@ -6,7 +6,7 @@ import Courses from './pages/Courses';
 import Contact from './pages/Contact';
 import About from './pages/About';
 import AboutCourse from './pages/AboutCourse';
-import Slider from './pages/Slider';
+import Slider from './components/Slider';
 
 export default function Routes() {
     return (
