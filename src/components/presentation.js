@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from 'react-router-dom';
-import { FiFacebook, FiInstagram, FiYoutube, FiLinkedin } from 'react-icons/fi';
+import { FaFacebookSquare, FaLinkedinIn, FaYoutube} from 'react-icons/fa';
+import { AiFillInstagram } from 'react-icons/ai';
 
 import developer from '../assets/developer.png';
 
@@ -16,7 +17,7 @@ class Presentation extends Component {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                <FiFacebook />
+                                <FaFacebookSquare />
                             </a>
                         </li>
                         <li>
@@ -25,7 +26,7 @@ class Presentation extends Component {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                <FiInstagram />
+                                <AiFillInstagram />
                             </a>
                         </li>
                         <li>
@@ -34,7 +35,7 @@ class Presentation extends Component {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                <FiLinkedin />
+                                <FaLinkedinIn />
                             </a>
                         </li>
                         <li>
@@ -43,7 +44,7 @@ class Presentation extends Component {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                <FiYoutube />
+                                <FaYoutube />
                             </a>
                         </li>
                     </ul>

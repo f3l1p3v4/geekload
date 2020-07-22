@@ -1,6 +1,15 @@
 .purchase {
     margin: 0 auto;
     max-width: 1480px;
+    margin: 40px 0;
+    text-align: center;
+}
+
+.purchase > h1 {
+    color: #1b63d1;
+    font-size: 2.5em;
+    width: 80%;
+    margin: 20px auto 50px;
 }
 
 .purchase-section {
@@ -26,13 +35,41 @@
 
 .purchase-card {
     width: 50%;
-    height: 200px;
-    background: rgba(102, 102, 102, 0.469);
+    box-shadow: rgba(83, 85, 88, 0.3) 0px 2px 16px;
     margin: 0 10px;
     border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    transition:0.3s;
 }
 
 .purchase-card:hover {
     box-shadow: rgba(30, 33, 37, 0.5) 0px 2px 16px;
     cursor: pointer;
+}
+
+.purchase-card .card-text {
+    width: 55%;
+}
+
+.purchase-card .card-text h1{
+    color: #1b63d1;
+    font-size: 2em;
+}
+
+.purchase-card .card-text h3{
+    color: #999;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.purchase-card .card-image{
+    width: 40%;
+    text-align: right;
+}
+
+.purchase-card .card-image img{
+    width: 80%;
 }
