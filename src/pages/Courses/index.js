@@ -3,6 +3,7 @@ import api from '../../services/api';
 // import { Link } from 'react-router-dom';
 
 import Header from '../../components/header';
+import Slider from '../../components/Slider';
 import Course from '../../components/course';
 import Footer from '../../components/footer';
 
@@ -30,12 +31,29 @@ function Coursos() {
         <>
             <Header />
 
+            <div>
+                <Slider />
+            </div>
+
             <div className="course-title">
                 <h1>Bem-vindo(a) a GeekLoad</h1>
             </div>
 
             <h2 className="course-definition">
-                Cursos em destaque de <a href="">Desenvolvimento de Games</a>
+                Cursos em destaque de <a href="/">Desenvolvimento de Games</a>
+            </h2>
+            <div className="wrapper">
+                <section>
+                    {/* <a href="#aventura-1587755079908.png">‹</a> */}
+                    {courses.map(course => (
+                        <Course key={course._id} course={course} />
+                    ))}
+                    {/* <a href="#VINGADORES-ULTIMATO-2019-1587910404576.jpg">›</a> */}
+                </section>
+            </div>
+
+            <h2 className="course-definition">
+                Cursos em destaque de <a href="/">Desenvolvimento de Games</a>
             </h2>
             <div className="wrapper">
                 <section>

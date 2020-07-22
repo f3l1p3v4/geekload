@@ -93,7 +93,7 @@
 
 .presentation .presentation-container>div h1 {
     color: #1b63d1;
-    font-size: 4em;
+    font-size: 2.8em;
     line-height: 1.3em;
     font-weight: 800;
 }
@@ -113,7 +113,7 @@
 
 .presentation .presentation-container>div h1 h1{
     color: #feb92e;
-    font-size: 1.3em;
+    font-size: 1.2em;
     line-height: 1.3em;
 }
 
@@ -168,7 +168,7 @@
 
 
 .presentation .presentation-container .presentation-img {
-    width: 40%;
+    width: 30%;
 }
 
 @media (max-width:500px) {
