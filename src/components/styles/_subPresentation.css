@@ -1,18 +1,10 @@
-.presentation {
+.sub-presentation {
     margin: 0 auto;
     max-width: 1480px;
     margin: 40px 0;
-    /* text-align: center; */
 }
 
-.presentation > h1 {
-    color: #444;
-    font-size: 1.8em;
-    width: 80%;
-    margin: 20px auto 10px;
-}
-
-.presentation-section {
+.sub-presentation-section {
     width: 80%;
     display: -webkit-box;
     display: -webkit-flex;
@@ -33,8 +25,8 @@
     /* align-items: center; */
 }
 
-.presentation-card {
-    width: 48%;
+.sub-presentation-card {
+    width: 100%;
     box-shadow: rgba(83, 85, 88, 0.3) 0px 2px 16px;
     margin: 0 10px;
     border-radius: 6px;
@@ -45,32 +37,27 @@
     transition:0.3s;
 }
 
-.presentation-card:hover {
-    box-shadow: rgba(30, 33, 37, 0.5) 0px 2px 16px;
-    cursor: pointer;
-}
-
-.presentation-card .card-text {
+.sub-presentation-card .card-text {
     width: 55%;
 }
 
-.presentation-card .card-text h1{
+.sub-presentation-card .card-text h1{
     color: #444;
     font-size: 1.8em;
     margin-bottom: 10px;
 }
 
-.presentation-card .card-text h3{
+.sub-presentation-card .card-text h3{
     color: #999;
     font-weight: 400;
     font-size: 1em;
 }
 
-.presentation-card .card-image{
+.sub-presentation-card .card-image{
     width: 40%;
     text-align: right;
 }
 
-.presentation-card .card-image img{
+.sub-presentation-card .card-image img{
     width: 80%;
 }

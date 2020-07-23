@@ -2,7 +2,7 @@ import React from 'react';
 
 import Header from '../components/header';
 import Presentation from '../components/presentation';
-import subPresentation from '../components/subPresentation';
+import SubPresentation from '../components/subPresentation';
 import Categories from '../components/categories';
 import Purchase from '../components/purchase';
 import Exclusive from '../components/exclusive';
@@ -13,7 +13,7 @@ function Home() {
     <>
       <Header/>
         <Presentation />
-        <subPresentation />
+        <SubPresentation />
         <Categories />
         <Purchase />
         <Exclusive />

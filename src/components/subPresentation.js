@@ -1,39 +1,39 @@
 import React, { Component } from "react";
 
-import boleto from "../assets/boleto.svg";
-import credit from "../assets/credit.svg";
+import time from "../assets/time.svg";
+import safe from "../assets/safe.svg";
+import video from "../assets/video.svg";
 
 class subPresentation extends Component {
     render() {
         return (
-            <div className="presentation">
-                <h1>Formas de pagamento</h1>
-                <section class="presentation-section">
-                    <div className="presentation-card">
+            <div className="sub-presentation">
+                <section class="sub-presentation-section">
+                    <div className="sub-presentation-card">
                         <div className="card-text">
-                            <h1>Page com Boleto!</h1>
-                            <h3>Seja avisado no seu e-mail quando um novo curso for lançado.</h3>
+                            <h1>Faça no seu tempo!</h1>
+                            <h3>Faça no seu ritmo.</h3>
                         </div>
                         <div className="card-image">
-                            <img src={boleto} alt="boleto"/>
+                            <img src={time} alt="Relógio"/>
                         </div>  
                     </div>
-                    <div className="presentation-card">
+                    <div className="sub-presentation-card">
                         <div className="card-text">
-                            <h1>Page com cartão!</h1>
-                            <h3>Seja avisado no seu e-mail quando um novo curso for lançado.</h3>
+                            <h1>Totalmente seguro!</h1>
+                            <h3>Plataforma rigorosamente segura.</h3>
                         </div>
                         <div className="card-image">
-                            <img src={credit} alt="credit"/>
+                            <img src={safe} alt="Seguro"/>
                         </div> 
                     </div>
-                    <div className="presentation-card">
+                    <div className="sub-presentation-card">
                         <div className="card-text">
-                            <h1>Page com cartão!</h1>
-                            <h3>Seja avisado no seu e-mail quando um novo curso for lançado.</h3>
+                            <h1>Assita online!</h1>
+                            <h3>Assista de onde quiser.</h3>
                         </div>
                         <div className="card-image">
-                            <img src={credit} alt="credit"/>
+                            <img src={video} alt="Video"/>
                         </div> 
                     </div>
                 </section>

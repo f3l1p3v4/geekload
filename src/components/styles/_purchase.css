@@ -45,11 +45,6 @@
     transition:0.3s;
 }
 
-.purchase-card:hover {
-    box-shadow: rgba(30, 33, 37, 0.5) 0px 2px 16px;
-    cursor: pointer;
-}
-
 .purchase-card .card-text {
     width: 55%;
 }
