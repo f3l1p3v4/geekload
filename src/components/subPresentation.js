@@ -29,7 +29,7 @@ class subPresentation extends Component {
                     </div>
                     <div className="sub-presentation-card">
                         <div className="card-text">
-                            <h1>Assita online!</h1>
+                            <h1>Assista online!</h1>
                             <h3>Assista de onde quiser.</h3>
                         </div>
                         <div className="card-image">
