@@ -43,7 +43,7 @@ export default function Contact() {
             // onChange={e => setDescription(e.target.value)}
             />
 
-            <button className="button" type="submit" >Cadastrar</button>
+            <button className="button" type="submit" >Enviar</button>
           </form>
         </div>
       </div>
