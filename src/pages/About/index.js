@@ -21,9 +21,9 @@ export default function Contact() {
             <div>
               <section>
                 <h1>QUEM SOMOS</h1>
-                <p>A GeekLoad é um dos maiores realizadores de sonho do mercado digital de aprendizado e instrução.
+                <p>A GeekLoad é um dos maiores realizadores de sonhos do Mercado Digital de Aprendizado e Instrução.
                 Trata-se de uma empresa que visa construir estudantes em desenvolvedores, designers e tudo relacionado a tecnologia, afinal
-              estamos vivendo na era da tecnologia onde empresas e pessoas respiram isso.</p>
+              estamos vivendo na "era" da tecnologia onde empresas e pessoas respiram isso.</p>
               </section>
             </div>
           </div>
