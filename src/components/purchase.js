@@ -11,7 +11,7 @@ class Purchase extends Component {
                 <section class="purchase-section">
                     <div className="purchase-card">
                         <div className="card-text">
-                            <h1>Page com Boleto!</h1>
+                            <h1>Pague com Boleto!</h1>
                             <h3>Seja avisado no seu e-mail quando um novo curso for lançado.</h3>
                         </div>
                         <div className="card-image">
@@ -20,7 +20,7 @@ class Purchase extends Component {
                     </div>
                     <div className="purchase-card">
                         <div className="card-text">
-                            <h1>Page com cartão!</h1>
+                            <h1>Pague com cartão!</h1>
                             <h3>Seja avisado no seu e-mail quando um novo curso for lançado.</h3>
                         </div>
                         <div className="card-image">
