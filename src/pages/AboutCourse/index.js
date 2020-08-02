@@ -79,7 +79,7 @@ function AboutCourse() {
               <div className="item-icon">
                 <AiOutlineStar />
               </div>
-              <span>Comece e tremine no seu tempo</span>
+              <span>Comece e termine no seu tempo</span>
             </div>
             <div className="item">
               <div className="item-icon">
