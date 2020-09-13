@@ -10,13 +10,15 @@ import Footer from '../components/footer';
 
 function Home() {
   return (
-    <>
+    <>  
       <Header/>
-        <Presentation />
-        <SubPresentation />
-        <Categories />
-        <Purchase />
-        <Exclusive />
+        <div className="home-container">
+          <Presentation />
+          <SubPresentation />
+          <Categories />
+          <Purchase />
+          <Exclusive />
+        </div>
       <Footer />
     </>
   );

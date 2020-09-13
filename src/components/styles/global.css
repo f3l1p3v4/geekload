@@ -66,9 +66,10 @@ form textarea {
     line-height: 60px;
     transition: filter 0.2s;
 }
- .button:hover {
-     filter: brightness(90%);
- }
+
+.button:hover {
+    filter: brightness(90%);
+}
 
 h1 {
     font: Roboto, sans-serif;
@@ -80,4 +81,9 @@ h2 {
 
 a {
     font: 500 1.5em Roboto, sans-serif;
+}
+
+.home-container {
+    margin: 40px auto;
+    max-width: 1480px;
 }

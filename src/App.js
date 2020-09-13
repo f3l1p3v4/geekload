@@ -1,13 +1,13 @@
 import React from 'react';
 
-import './components/styles/global.css';
-
 import Routes from './routes';
+
+import './components/styles/global.css';
 
 function App() {
   return (
     <>
-      <Routes />
+      <Routes className="main"/>
     </>
   );
 }
