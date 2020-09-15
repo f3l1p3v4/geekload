@@ -2,11 +2,12 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 32px;
-    width: 30px;
+    height: 18px;
+    width: 10px;
     border: none;
     cursor: pointer;
     padding: 0;
+    margin-right: 20px;
     box-sizing: border-box;
     background: #feb92e;
 }
@@ -22,7 +23,7 @@
 }
   
 .toggle-button__line {
-    width: 32px;
-    height: 4px;
+    width: 18px;
+    height: 2px;
     background: #FFF;
 }

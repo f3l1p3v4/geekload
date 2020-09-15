@@ -20,6 +20,14 @@
     border-right: 1px solid rgba(245, 250, 246, 0.8);
 }
 
+
+@media (max-width: 550px) {
+    .logo {
+        width: 40px;
+        padding: 0px 10px 0px 0px;
+    }    
+}
+
 .navbar-menu {
     display: flex;
     align-items: center;
@@ -88,5 +96,7 @@
 @media (max-width: 610px) {
     .spacer-button {
         flex: 1;
+        width: 34px;
+        padding: 0px 10px 0px 0px;
     } 
 }

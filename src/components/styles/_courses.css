@@ -96,7 +96,7 @@ header .course-info{
 
 .item .position {
     /* background-color: #59cf00; */
-    padding: 8px 0;
+    padding: 0 0 8px;
     /* border-radius: 4px; */
     /* text-align: center; */
 }
