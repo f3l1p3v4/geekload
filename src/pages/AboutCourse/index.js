@@ -31,16 +31,16 @@ function AboutCourse() {
                     playerVars: { showinfo: 1 }
                   },
                   //   youtube: {
-                  //     playerVars: {
-                  //       start: this.state.startSecond,
-                  //       end: this.state.endSecond,
-                  //     }
-                  //   }
-                }}
-                // loop
-                // playbackRate={this.state.playbackRate}
-                // playing
-                width="100%"
+                    //     playerVars: {
+                      //       start: this.state.startSecond,
+                      //       end: this.state.endSecond,
+                      //     }
+                      //   }
+                    }}
+                    // loop
+                    // playbackRate={this.state.playbackRate}
+                    // playing
+                    width="100%"
               />
             </div>
             <article className="about-course-info">

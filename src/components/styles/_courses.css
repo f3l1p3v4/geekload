@@ -71,7 +71,7 @@ header .course-info{
 @media (max-width:450px) {
     .item header .course-info p  {
         font-size: 1.1em;
-        height: 44px;
+        height: 38px;
     }
 }
 
