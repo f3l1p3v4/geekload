@@ -68,6 +68,13 @@ header .course-info{
     }
 }
 
+@media (max-width:450px) {
+    .item header .course-info p  {
+        font-size: 1.1em;
+        height: 44px;
+    }
+}
+
 .item header .course-info span {
     font-size: 1.1em;
     color: #999;
@@ -96,7 +103,7 @@ header .course-info{
 
 .item .position {
     /* background-color: #59cf00; */
-    padding: 0 0 8px;
+    padding: 0
     /* border-radius: 4px; */
     /* text-align: center; */
 }

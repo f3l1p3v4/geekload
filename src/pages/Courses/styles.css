@@ -19,11 +19,12 @@
     text-align: left;
     color: #444;
     padding-left: 20px;
+    margin-bottom: 10px;
 }
 
 @media (max-width: 480px) {
     .course-title h1 {
-        font-size: 2em;
+        font-size: 1.6em;
     }
 }
 
@@ -43,7 +44,7 @@
 
 @media (max-width: 480px) {
     .course-definition {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 }
 
