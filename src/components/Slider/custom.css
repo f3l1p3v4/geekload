@@ -14,7 +14,15 @@
     width: 100%;
     max-width: 1470px;
     margin: 0 auto;
+    border-radius: 0 0 8px 8px;
 }
+
+@media (max-width: 1480px) {
+    .fullW {
+        border-radius: 0;
+    }
+}
+
 /*====== HEIGHT ======*/
 .screenH {
     /* height: 45vh; */
@@ -35,7 +43,7 @@
 
 @media (max-width: 400px) {
     .screenH {
-        height: 150px;
+        height: 200px;
     }
 }
 
