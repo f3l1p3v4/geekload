@@ -6,9 +6,9 @@ import './components/styles/global.css';
 
 function App() {
   return (
-    <>
-      <Routes className="main"/>
-    </>
+    <div>
+        <Routes className="main"/>
+    </div>
   );
 }
 

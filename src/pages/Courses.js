@@ -1,13 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import api from '../../services/api';
-// import { Link } from 'react-router-dom';
+import api from '../services/api';
 
-import Header from '../../components/header';
-import Slider from '../../components/Slider';
-import Course from '../../components/course';
-import Footer from '../../components/footer';
-
-import './styles.css';
+import Slider from '../components/Slider'
+import Course from '../components/course'
 
 function Coursos() {
     const [courses, setCourses] = useState([]);
@@ -33,10 +28,9 @@ function Coursos() {
     
     return (
         <>
-            <Header />
-                <div>
-                    <Slider />
-                </div>
+            <div>
+                <Slider />
+            </div>
 
             <div className="course">
                 <div className="course-title">
@@ -69,7 +63,6 @@ function Coursos() {
                     </section>
                 </div>
             </div>
-            <Footer />
         </>
     )
 }

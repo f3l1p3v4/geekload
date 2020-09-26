@@ -1,16 +1,10 @@
 import React from 'react';
 
-import './styles.css';
-
-import Header from '../../components/header';
-import Footer from '../../components/footer';
-
-import Information from '../../assets/information.png';
+import Information from '../assets/information.png';
 
 export default function Contact() {
   return (
     <>
-      <Header />
       <div className="contact-container">
         <div className="content">
           <section>
@@ -47,7 +41,6 @@ export default function Contact() {
           </form>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

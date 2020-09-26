@@ -1,24 +1,28 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
+import Header from './components/header';
 import Home from './pages/Home';
 import Courses from './pages/Courses';
 import Contact from './pages/Contact';
 import About from './pages/About';
 import AboutCourse from './pages/AboutCourse';
-import Slider from './components/Slider';
+import Footer from './components/footer';
 
 export default function Routes() {
-    return (
-        <BrowserRouter>
-            <Switch>
+return (
+    <div>
+    <BrowserRouter>
+        <Header />
+            <Switch >
                 <Route path="/" exact component={Home} />
                 <Route path="/courses" component={Courses} />
                 <Route path="/contact" component={Contact} />    
                 <Route path="/about" component={About} />     
-                <Route path="/slider" component={Slider} />    
                 <Route path="/aboutcourse" component={AboutCourse} />    
             </Switch>
-        </BrowserRouter>
+        <Footer />
+    </BrowserRouter>
+    </div>
     );
 }

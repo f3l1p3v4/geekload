@@ -1,16 +1,10 @@
 import React from 'react';
 
-import './styles.css';
-
-import Header from '../../components/header';
-import Footer from '../../components/footer';
-
-import QuemSomos from '../../assets/QuemSomos.png'
+import QuemSomos from '../assets/QuemSomos.png'
 
 export default function Contact() {
   return (
     <>
-      <Header />
       <div className="about-container">
         <div className="about-content">
           <section>
@@ -40,7 +34,6 @@ export default function Contact() {
           <p>Ser a melhor empresa de educação e mudança de vida do Brasil</p>
         </section>
       </div>
-      <Footer />
     </>
   );
 }
