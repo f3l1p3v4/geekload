@@ -9,7 +9,11 @@
     opacity: 0.6;
 }
 
-.course-image img { 
+.item a {
+    text-decoration: none;
+}
+
+.item a .course-image img { 
     top: 0;
     left: 0;
     width: 100%;
@@ -20,26 +24,26 @@
     border-radius: 4px;
 }
 
-.classificacao {
+.item a .classificacao {
     width: 100%;
     text-align: right;
 }
 
-.classificacao img {
+.item a .classificacao img {
     width: 40%;
 }
 
-header {
+.item a header {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-header .course-info{
+.item a header .course-info{
     text-align: left;
 }
 
-.item header .course-info p {
+.item a header .course-info p {
     display: block!important;
     display: -webkit-box!important;
     -webkit-line-clamp: 2;
@@ -57,26 +61,28 @@ header .course-info{
     white-space: normal;
     font-weight: 700;
     height: 40px;
-    font-size: 1.2em;
+    font-size: 1rem;
     color: #29303b;
 }
 
 @media (max-width:750px) {
-    .item header .course-info p  {
+    .item a header .course-info p  {
         font-size: 1.3em;
         height: 44px;
     }
 }
 
 @media (max-width:450px) {
-    .item header .course-info p  {
+    .item a header .course-info p  {
         font-size: 1.1em;
         height: 38px;
     }
 }
 
-.item header .course-info span {
-    font-size: 1.1em;
+.item a header .course-info .instructor span {
+    font-size: 1em;
+    padding-top: 8px;
+    font-size: 1rem;
     color: #999;
     display: block!important;
     display: -webkit-box!important;
@@ -96,21 +102,13 @@ header .course-info{
     height: 38px;
 }
 
-.item header .course-info .instructor span {
-    font-size: 1em;
-    padding-top: 8px;
-}
-
-.item .position {
-    /* background-color: #59cf00; */
+.item a .position {
     padding: 0
-    /* border-radius: 4px; */
-    /* text-align: center; */
 }
 
-.item .position a{
+.item a .position p{
     text-decoration: none;
-    font-size: 1.1em;
+    font-size: 1rem;
     font-weight: 500;
     color: #59cf00;
 }

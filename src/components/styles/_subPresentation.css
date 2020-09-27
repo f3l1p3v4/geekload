@@ -4,12 +4,10 @@
 }
 
 .sub-presentation-section {
-    width: 80%;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin: 20px auto;
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
@@ -21,13 +19,12 @@
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    /* align-items: center; */
 }
 
 .sub-presentation-card {
     width: 100%;
     box-shadow: rgba(83, 85, 88, 0.3) 0px 2px 16px;
-    margin: 0 10px;
+    margin-right: 20px;
     border-radius: 6px;
     display: flex;
     justify-content: space-between;

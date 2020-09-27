@@ -1,5 +1,7 @@
 import React from 'react';
 
+import '../components/StylePages/contact.css';
+
 import Information from '../assets/information.png';
 
 export default function Contact() {

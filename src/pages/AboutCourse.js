@@ -10,14 +10,11 @@ import { GiStopwatch } from 'react-icons/gi';
 import { GoRocket } from 'react-icons/go';
 import { FiMessageCircle } from 'react-icons/fi';
 
-
-import Header from '../../components/header';
-import Footer from '../../components/footer';
+import '../components/StylePages/about_course.css';
 
 function AboutCourse() {
   return (
     <>
-      <Header />
       <div className="about-course">
         <div className="about-course-container">
           <div className="about-course-content">
@@ -120,7 +117,6 @@ function AboutCourse() {
           </div>
         </section>
         </div>
-      <Footer />
     </>
   );
 }

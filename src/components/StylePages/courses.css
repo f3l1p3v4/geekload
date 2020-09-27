@@ -6,13 +6,8 @@
     width: 100%;
     max-width: 1200px;
     margin: 20px auto;
+    padding: 0 100px;
 }
-
-/* @media (max-width: 1000px) {
-    .course {
-        max-width: 800px;
-    }
-} */
 
 .course-title h1 {
     font-size: 2.5em;
@@ -30,7 +25,7 @@
 
 .course-definition {
     width: 100%;
-    max-width: 1470px;
+    max-width: 1500px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: -0.02rem;

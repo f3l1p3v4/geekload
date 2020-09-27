@@ -8,14 +8,12 @@
 }
 
 .categories-section {
-    width: 80%;
     position: relative;
     display: grid;
     grid-template-columns: var(--gutter) 1fr var(--gutter);
     padding: 20px 0;
     align-content: start;
     margin: var(--gutter) auto 0;
-    /* text-align: center; */
 }
 
 .categories-section  > * {
@@ -36,9 +34,7 @@
     width: 100%;
     max-width: 1380px;
     display: grid;
-    /* grid-gap: calc(var(30px)); */
     grid-template-columns: repeat(5, calc(20%));
-    /* grid-template-rows: minmax(200px, 1fr); */
 }
 
 .categories-section .item {

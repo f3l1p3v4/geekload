@@ -1,23 +1,12 @@
-/* @import url("https://fonts.googleapis.com/css?family=Quicksand");
-* {
-    margin: 0;
-    padding: 0;
-    font-family: "Quicksand", sans-serif;
-    color: #fff;
-} */
-
 /*====== WIDTH ======*/
-.screenW {
-    width: 100vw;
-}
 .fullW {
     width: 100%;
-    max-width: 1470px;
+    max-width: 1600px;
     margin: 0 auto;
     border-radius: 0 0 8px 8px;
 }
 
-@media (max-width: 1480px) {
+@media (max-width: 1600px) {
     .fullW {
         border-radius: 0;
     }
@@ -25,7 +14,6 @@
 
 /*====== HEIGHT ======*/
 .screenH {
-    /* height: 45vh; */
     height: 300px;
 }
 

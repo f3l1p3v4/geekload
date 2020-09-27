@@ -10,7 +10,7 @@
 .navbar {
     display: flex;
     align-items: center;
-    width: 1400px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -68,19 +68,12 @@
     top: 0.8rem;
     display: block;
     width: 0%;
-    border-top: 3px solid #1b63d1;
+    border-top: 3px solid #FFF;
     transition: 0.5s;
 }
 
 .navbar-menu ul li a:hover:before {
     width: 2%;
-}
-.navbar-menu ul li a:hover {
-    color: #1b63d1;
-}
-
-.navbar-menu ul li a:active {
-    color: #1b63d1;
 }
 
 .spacer {
@@ -90,7 +83,7 @@
 @media (max-width:610px) {
     .spacer {
         display: none;
-}
+    }
 }
 
 @media (max-width: 610px) {

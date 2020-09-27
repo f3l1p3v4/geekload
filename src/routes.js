@@ -12,17 +12,19 @@ import Footer from './components/footer';
 export default function Routes() {
 return (
     <div>
-    <BrowserRouter>
-        <Header />
-            <Switch >
-                <Route path="/" exact component={Home} />
-                <Route path="/courses" component={Courses} />
-                <Route path="/contact" component={Contact} />    
-                <Route path="/about" component={About} />     
-                <Route path="/aboutcourse" component={AboutCourse} />    
-            </Switch>
-        <Footer />
-    </BrowserRouter>
+        <BrowserRouter>
+            <Header />
+                <div className="main_container">
+                    <Switch>
+                        <Route path="/" exact component={Home} />
+                        <Route path="/courses" component={Courses} />
+                        <Route path="/contact" component={Contact} />    
+                        <Route path="/about" component={About} />     
+                        <Route path="/aboutcourse" component={AboutCourse} />    
+                    </Switch>
+                </div>
+            <Footer />
+        </BrowserRouter>
     </div>
     );
 }

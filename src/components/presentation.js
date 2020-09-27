@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import { Link } from 'react-router-dom';
-import { FaFacebookSquare, FaLinkedinIn, FaYoutube} from 'react-icons/fa';
-import { AiFillInstagram } from 'react-icons/ai';
 
 import developer from '../assets/developer.png';
 
@@ -9,46 +7,6 @@ class Presentation extends Component {
     render() {
         return (
             <div className="presentation">
-                <div className="link-social">
-                    <ul>
-                        <li>
-                            <a
-                                href="https://www.facebook.com/geekloadoficial/?modal=admin_todo_tour"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <FaFacebookSquare />
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="https://www.instagram.com/geekload_oficial/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <AiFillInstagram />
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="https://www.google.com/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <FaLinkedinIn />
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="https://www.youtube.com/channel/UC4kbo7q2grJ737nbhlY-YIA?view_as=subscriber"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <FaYoutube />
-                            </a>
-                        </li>
-                    </ul>
-                </div>
                 <section class="presentation-container">
 
                     <div>

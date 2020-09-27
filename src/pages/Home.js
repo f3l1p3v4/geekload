@@ -9,7 +9,7 @@ import Exclusive from '../components/exclusive';
 function Home() {
   return (
     <>  
-      <div className="home-container">
+      <div className="home_container">
         <Presentation />
         <SubPresentation />
         <Categories />

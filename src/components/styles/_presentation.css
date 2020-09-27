@@ -1,80 +1,15 @@
-.presentation {
-    padding: 60px 20px 20px;
-    margin: 0 auto;
-    max-width: 1380px;
-}
-
-@media (max-width:480px) {
-    .presentation {
-        padding: 20px;
-}
-}
-
-.link-social {   
-    display: table;
-    height: 100vh;
-    margin-top: -50vh;
-    position: fixed;
-    top: 50%;
-}
-
-
-.link-social ul {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.link-social ul li {
-    display: list-item;
-    text-align: -webkit-match-parent;
-    margin: 20px 0;
-}
-
-.link-social ul li a {
-    font-size: 1.4rem;
-    text-decoration: none;
-    text-transform: uppercase;
-    cursor: pointer;
-    color: #1b63d1;
-    transition: all 0.3s ease-in-out;
-}
-
-.link-social ul li a:hover {
-    opacity: 0.8;
-}
-
 .presentation .presentation-container {
     width: 100%;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    margin: 20px auto;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: center;
-    -ms-flex-pack: justify;
-    justify-content: center;
-}
-
-.presentation .presentation-container div {
-    margin-right: 100px;
+    justify-content: space-between;
+    margin: 20px auto;
 }
 
 @media (max-width:610px) {
     .presentation .presentation-container {
         flex-direction: column-reverse;
-}
+    }
 }
 
 .presentation .presentation-container>div {
@@ -86,14 +21,8 @@
         padding: 30px;
         width: 100%;
         text-align: center;
+    }
 }
-}
-
-/* @media (max-width:700px) {
-    .presentation .presentation-container>div {
-
-}
-} */
 
 .presentation .presentation-container>div h1 {
     color: #1b63d1;
@@ -106,13 +35,13 @@
 @media (max-width:1340px) {
     .presentation .presentation-container>div h1 {
         font-size: 3em;
-}
+    }
 }
 
 @media (max-width:1010px) {
     .presentation .presentation-container>div h1 {
         font-size: 2em;
-}
+    }
 }
 
 .presentation .presentation-container>div h1 h1{
@@ -156,15 +85,16 @@
         width: 250px;
         font-size: 14px;
         padding: 10px;
-}
+    }
 }
 
 @media (max-width:610px) {
     .presentation .presentation-container>div a {
         width: 100%;
         font-size: 20px;
+    }
 }
-}
+
 .presentation .presentation-container>div a:hover,
 .presentation .presentation-container>div a:focus {
     opacity: 0.9;
@@ -173,10 +103,11 @@
 
 .presentation .presentation-container .presentation-img {
     width: 30%;
+    margin-right: 80px;
 }
 
 @media (max-width:500px) {
     .presentation .presentation-container .presentation-img {
         width: 80%;
-}
+    }
 }

@@ -83,7 +83,9 @@ a {
     font: 500 1.5em Roboto, sans-serif;
 }
 
-.home-container {
+.home_container {
+    width: 100%;
+    max-width: 1200px;
     margin: 40px auto;
-    max-width: 1480px;
+    padding: 0 100px;
 }

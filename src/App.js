@@ -7,7 +7,7 @@ import './components/styles/global.css';
 function App() {
   return (
     <div>
-        <Routes className="main"/>
+        <Routes />
     </div>
   );
 }

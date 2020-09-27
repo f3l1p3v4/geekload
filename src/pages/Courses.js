@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import api from '../services/api';
 
-import Slider from '../components/Slider'
-import Course from '../components/course'
+import Slider from '../components/Slider';
+import Course from '../components/course';
+
+import '../components/StylePages/courses.css';
 
 function Coursos() {
     const [courses, setCourses] = useState([]);

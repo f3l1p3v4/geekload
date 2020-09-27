@@ -6,11 +6,6 @@ import logo from '../assets/logo.png';
 import Drawer from '../components/MenuOverlay/Drawertogglebutton';
 import MenuOverlay from "./MenuOverlay/menuOverlay";
 
-// if (typeof window !== "undefined") {
-//   // eslint-disable-next-line global-require
-//   require("smooth-scroll")('a[href*="#"]')
-// }
-
 class Header extends Component {
   constructor(props) {
     super(props)
