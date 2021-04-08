@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import logo from "../../assets/logo1.png";
 import "./styles.css";
 
-import Drawer from "../../components/MenuOverlay/Drawertogglebutton";
-import MenuOverlay from "../MenuOverlay/menuOverlay";
+import Drawer from "../Menu/Drawertogglebutton";
+import MenuOverlay from "../Menu/MenuOverlay";
 
 class Header extends Component {
   constructor(props) {
@@ -39,7 +39,6 @@ class Header extends Component {
             <div>
               <a href="/" className="logo-main">
                 <img src={logo} alt="Logo DevLoad" className="logo" />
-                <span>DevLoad</span>
               </a>
             </div>
             <div className="spacer" />
@@ -49,10 +48,15 @@ class Header extends Component {
                   <Link to="/">Home</Link>
                 </li>
                 <li>
-                  <Link to="/courses">Cursos</Link>
+                  <Link to="/aboutcourse">Cursos</Link>
                 </li>
                 <li>
                   <Link to="/contact">Contato</Link>
+                </li>
+                <li>
+                  <Link to="/courses" className="btn">
+                    Blog
+                  </Link>
                 </li>
               </ul>
             </div>

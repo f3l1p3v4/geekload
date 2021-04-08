@@ -2,9 +2,7 @@
   display: flex;
   align-items: center;
   width: 100%;
-  padding: 5px;
-  background-color: #ffffff;
-  box-shadow: 0 1px 10px -2px gray;
+  background-color: var(--_color_0);
 }
 
 .navbar {
@@ -18,26 +16,13 @@
   display: flex;
   align-items: center;
   padding-right: 10px;
-  margin: 5px 0;
   text-decoration: none;
-  color: 4b4b4b;
-  font-size: 2.5em;
-}
-
-.logo-main span {
-  font-weight: bold;
+  color: var(--_color_1);
 }
 
 .logo {
-  width: 65px;
-  padding-left: 20px;
-}
-
-@media (max-width: 550px) {
-  .logo {
-    width: 40px;
-    padding: 0px 10px 0px 0px;
-  }
+  width: 15%;
+  padding: 5px 20px;
 }
 
 .navbar-menu {
@@ -52,12 +37,6 @@
   display: flex;
 }
 
-@media (max-width: 610px) {
-  .navbar-menu ul {
-    display: none;
-  }
-}
-
 .navbar-menu ul li {
   display: flex;
   align-items: center;
@@ -69,23 +48,33 @@
 .navbar-menu ul li a {
   text-decoration: none;
   cursor: pointer;
-  color: #fff;
+  color: var(--_color_1);
   transition: 0.5s;
   font-size: 1.1em;
+  font-weight: bold;
+  transition: 0.1s ease-in;
 }
 
-.navbar-menu ul li a:before {
-  content: "";
-  position: absolute;
-  top: 0.8rem;
-  display: block;
-  width: 0%;
-  border-top: 3px solid #fff;
-  transition: 0.5s;
+.navbar-menu ul li a:hover {
+  border-bottom: 2px solid var(--_color_1);
 }
 
-.navbar-menu ul li a:hover:before {
-  width: 2%;
+.navbar-menu ul li .btn {
+  background: var(--_color_1);
+  color: var(--_color_0);
+  border-radius: 0.4rem;
+  padding: 0.4rem 1.5rem;
+  border: 0.1rem solid var(--_color_1);
+  font-size: 1.1em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+
+.navbar-menu ul li .btn:hover {
+  background: transparent;
+  border: 0.1rem solid var(--_color_1);
+  color: var(--_color_1);
 }
 
 .spacer {
@@ -93,15 +82,24 @@
 }
 
 @media (max-width: 610px) {
+  .navbar-menu ul {
+    display: none;
+  }
+
   .spacer {
     display: none;
   }
-}
 
-@media (max-width: 610px) {
   .spacer-button {
     flex: 1;
     width: 34px;
+    padding: 0px 10px 0px 0px;
+  }
+}
+
+@media (max-width: 550px) {
+  .logo {
+    width: 40px;
     padding: 0px 10px 0px 0px;
   }
 }
