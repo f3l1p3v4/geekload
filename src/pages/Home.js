@@ -1,19 +1,17 @@
 import React from "react";
 
 import Presentation from "../components/Presentation";
-import SubPresentation from "../components/subPresentation";
-import Categories from "../components/categories";
-import Purchase from "../components/purchase";
-import Exclusive from "../components/exclusive";
+import Information from "../components/Information";
+import Payment from "../components/Payment";
+import Exclusive from "../components/Exclusive";
 
 function Home() {
   return (
     <>
       <div className="home_container">
         <Presentation />
-        <SubPresentation />
-        <Categories />
-        <Purchase />
+        <Information />
+        <Payment />
         <Exclusive />
       </div>
     </>

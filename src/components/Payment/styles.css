@@ -1,0 +1,56 @@
+.payment {
+  margin: 100px 0;
+}
+
+.payment-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.payment-card {
+  width: 48%;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  transition: 0.3s;
+}
+
+.payment-card .card-text {
+  width: 55%;
+}
+
+.payment-card .card-text h1 {
+  color: #444;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.payment-card .card-text h3 {
+  color: #999;
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+.payment-card .card-image {
+  width: 50%;
+  text-align: right;
+}
+
+.payment-card .card-image img {
+  width: 80%;
+}
