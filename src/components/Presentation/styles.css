@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  padding: 0 10px;
   margin: 0 auto;
 }
 
@@ -12,8 +13,8 @@
   max-width: 800px;
 }
 
-.presentation .presentation-container > div h1 {
-  font-size: 4.8em;
+.presentation .presentation-container > div h1:nth-child(1) {
+  font-size: 8.8em;
   line-height: 1.4em;
   letter-spacing: -0.2rem;
   font-weight: 800;
@@ -22,9 +23,14 @@
   -webkit-text-fill-color: transparent;
 }
 
-.presentation .presentation-container > div h1 h1 {
-  font-size: 2.2em;
-  line-height: 1.3em;
+.presentation .presentation-container > div h1:nth-child(2) {
+  font-size: 4.8em;
+  line-height: 1em;
+  letter-spacing: -0.2rem;
+  font-weight: 800;
+  background: -webkit-linear-gradient(#1cffb3, #5996f0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .presentation .presentation-container > div p {
@@ -36,6 +42,7 @@
 }
 
 .presentation .presentation-container > div a {
+  width: 100%;
   background: var(--_color_1);
   color: var(--_color_0);
   border-radius: 0.4rem;
@@ -59,29 +66,21 @@
   opacity: 0.9;
 }
 
-@media (max-width: 910px) {
-  .presentation .presentation-container > div a {
-    width: 250px;
-    font-size: 14px;
-    padding: 10px;
+@media (max-width: 700px) {
+  .presentation {
+    height: auto;
   }
-}
 
-@media (max-width: 610px) {
-  .presentation .presentation-container > div a {
-    width: 100%;
-    font-size: 20px;
+  .presentation .presentation-container > div h1:nth-child(1) {
+    margin-top: 3rem;
+    font-size: 6em;
   }
-}
 
-@media (max-width: 500px) {
-  .presentation .presentation-container .presentation-img {
-    width: 80%;
+  .presentation .presentation-container > div h1:nth-child(2) {
+    font-size: 4em;
   }
-}
 
-@media (max-width: 400px) {
-  .presentation .presentation-container > div h1 h1 {
-    font-size: 1.1em;
+  .presentation .presentation-container > div p {
+    font-size: 1.3em;
   }
 }

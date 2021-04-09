@@ -9,13 +9,7 @@
   padding: 0;
   margin-right: 20px;
   box-sizing: border-box;
-  background: #feb92e;
-}
-
-@media (min-width: 610px) {
-  .toggle-button {
-    display: none;
-  }
+  background: var(--_color_0);
 }
 
 .toggle-button:focus {
@@ -23,7 +17,13 @@
 }
 
 .toggle-button__line {
-  width: 18px;
-  height: 2px;
-  background: #fff;
+  width: 22px;
+  height: 3px;
+  background: var(--_color_1);
+}
+
+@media (min-width: 610px) {
+  .toggle-button {
+    display: none;
+  }
 }
