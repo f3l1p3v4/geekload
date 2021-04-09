@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import { FaArrowCircleRight } from "react-icons/fa";
 
 import notification from "../../assets/notificacao.png";
 
