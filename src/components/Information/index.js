@@ -20,6 +20,7 @@ class subPresentation extends Component {
               <img src={time} alt="Relógio" />
             </div>
           </div>
+          <hr />
           <div className="information-card">
             <div className="card-text">
               <h1>Totalmente seguro!</h1>
@@ -29,6 +30,7 @@ class subPresentation extends Component {
               <img src={safe} alt="Seguro" />
             </div>
           </div>
+          <hr />
           <div className="information-card">
             <div className="card-text">
               <h1>Assista online!</h1>
@@ -38,6 +40,7 @@ class subPresentation extends Component {
               <img src={video} alt="Video" />
             </div>
           </div>
+          <hr />
         </section>
       </div>
     );
