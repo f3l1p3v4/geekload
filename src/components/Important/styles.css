@@ -1,12 +1,12 @@
 .important {
   margin: 100px 0;
-  background-color: var(--_color_2);
   background-repeat: no-repeat;
+  background-color: #00000088;
   background-position: center center;
   background-attachment: scroll;
   background-size: cover;
   background-blend-mode: color-dodge;
-  background-image: url("../../assets/important.jpg");
+  background-image: url(https://www.primeinf.com.br/wp-content/uploads/2019/04/banner-cloud-integration.jpg);
   background-position: center;
 }
 
@@ -52,4 +52,26 @@
 
 .important-card .card-image img {
   width: 80%;
+}
+
+@media (max-width: 700px) {
+  .important {
+    background-position: right;
+  }
+
+  .important-card {
+    margin: 20px 0;
+  }
+
+  .important-card .card-text {
+    width: 100%;
+  }
+
+  .important-card .card-text h1 {
+    font-size: 1.8em;
+  }
+
+  .important-card .card-text h3 {
+    font-size: 1.2em;
+  }
 }
