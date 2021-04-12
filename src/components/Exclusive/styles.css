@@ -18,13 +18,13 @@
 }
 
 .exclusive-section .image {
-  width: 45%;
+  width: 40%;
   transform: rotate(-15deg);
 }
 
 .exclusive-section .text {
   width: 50%;
-  max-width: 350px;
+  max-width: 320px;
 }
 
 .exclusive-section div img {
