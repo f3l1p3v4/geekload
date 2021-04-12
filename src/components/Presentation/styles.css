@@ -41,29 +41,23 @@
   font-weight: 500;
 }
 
-.presentation .presentation-container > div a {
-  width: 100%;
+.presentation .presentation-container > div button {
   background: var(--_color_1);
+  background: -webkit-linear-gradient(#1cffb3, #5996f0);
+  border: 0.1rem solid var(--_color_0);
   color: var(--_color_0);
   border-radius: 0.4rem;
-  margin: 1.2rem;
-  padding: 0.8rem 3.2rem;
-  border: 0.1rem solid var(--_color_1);
+  padding: 1rem 5rem;
   font-size: 1.1rem;
   font-weight: 500;
   cursor: pointer;
   transition: 0.2s ease-in;
 }
 
-.presentation .presentation-container > div a:hover {
+.presentation .presentation-container > div button:hover {
   background: transparent;
   border: 0.1rem solid var(--_color_1);
   color: var(--_color_1);
-}
-
-.presentation .presentation-container > div a:hover,
-.presentation .presentation-container > div a:focus {
-  opacity: 0.9;
 }
 
 @media (max-width: 700px) {
@@ -82,5 +76,18 @@
 
   .presentation .presentation-container > div p {
     font-size: 1.3em;
+  }
+
+  .presentation .presentation-container > div button {
+    padding: 1.1rem 6.2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .presentation .presentation-container > div button {
+    width: 100%;
+    border: 0.1rem solid var(--_color_6);
+    font-size: 1.4rem;
+    color: var(--_color_6);
   }
 }

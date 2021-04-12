@@ -9,13 +9,13 @@ class Presentation extends Component {
       <div className="presentation">
         <section class="presentation-container">
           <div>
-            <h1>DevLoad.</h1>
+            <h1>DevLoad</h1>
             <h1>Faz você pensar fora da caixa.</h1>
             <p>
               Transforme a sua vida e a de milhares, milhões ou até bilhões de
               pessoas com tecnologia.
             </p>
-            <Link to="/courses">Iniciar!</Link>
+            <button to="/courses">Iniciar!</button>
           </div>
         </section>
       </div>

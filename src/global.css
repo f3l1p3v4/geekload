@@ -5,7 +5,6 @@
   padding: 0;
   outline: 0;
   box-sizing: border-box;
-  background: #000000;
   --_color_0: #ffffff;
   --_color_1: #4b4b4b;
   --_color_2: #999999;
@@ -88,9 +87,7 @@ a {
 
 .home_container {
   width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 100px;
+  text-align: center;
 }
 
 @media (max-width: 700px) {

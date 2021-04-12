@@ -1,5 +1,7 @@
 .payment {
   margin: 100px 0;
+  margin: 40px auto;
+  max-width: 1000px;
 }
 
 .payment-section {
