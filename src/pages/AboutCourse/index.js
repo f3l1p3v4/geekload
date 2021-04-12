@@ -10,6 +10,8 @@ import { GiStopwatch } from "react-icons/gi";
 import { GoRocket } from "react-icons/go";
 import { FiMessageCircle } from "react-icons/fi";
 
+import Payment from "../../components/Payment";
+
 import "./styles.css";
 
 function AboutCourse() {
@@ -128,6 +130,7 @@ function AboutCourse() {
               projetos de design gráfico.
             </p>
           </div>
+          <Payment />
         </section>
       </div>
     </>
