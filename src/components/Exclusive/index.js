@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import notification from "../../assets/notificacao.png";
+import chat from "../../assets/chat.svg";
 
 import "./styles.css";
 
@@ -11,7 +11,7 @@ class Exclusive extends Component {
         <div className="exclusive">
           <section className="exclusive-section">
             <div className="image">
-              <img src={notification} alt="notification" />
+              <img src={chat} alt="Notificação" />
             </div>
 
             <div className="text">

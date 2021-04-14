@@ -80,10 +80,14 @@
   line-height: 32px;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 700px) {
+  .about-container {
+    padding: 10px;
+  }
+
   .about-container .about-content {
     display: flow-root;
-    padding: 30px 30px 0 30px;
+    padding: 0;
   }
 
   .about-container .about-content .about-text {
@@ -91,15 +95,30 @@
     margin: 64px 0 32px;
   }
 
+  .about-container .about-content .about-text section {
+    padding: 0px;
+    text-align: center;
+  }
+
   .about-container .about-content .about-text h1 {
     margin-top: 0;
   }
 
+  .about-container .about-content .about-text p {
+    margin: 0;
+  }
+
   .about-info {
     display: flow-root;
+    padding: 0;
+    text-align: center;
   }
 
   .about-info section h1 {
     margin: 10px 0 32px;
+  }
+
+  .about-info section {
+    padding: 10px;
   }
 }

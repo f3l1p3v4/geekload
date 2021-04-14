@@ -18,8 +18,8 @@
 }
 
 .exclusive-section .image {
+  text-align: center;
   width: 40%;
-  transform: rotate(-15deg);
 }
 
 .exclusive-section .text {
@@ -28,8 +28,7 @@
 }
 
 .exclusive-section div img {
-  width: 80%;
-  padding-right: 10px;
+  width: 100%;
 }
 
 .exclusive-section div h1 {

@@ -1,14 +1,8 @@
 .about-course {
   width: 100%;
   max-width: 1200px;
-  padding: 20px;
+  padding: 10px;
   margin: 0 auto;
-}
-
-@media (max-width: 800px) {
-  .about-course {
-    padding: 20px;
-  }
 }
 
 .about-course-container {

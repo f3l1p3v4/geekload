@@ -86,8 +86,6 @@
 @media (max-width: 400px) {
   .presentation .presentation-container > div button {
     width: 100%;
-    border: 0.1rem solid var(--_color_6);
     font-size: 1.4rem;
-    color: var(--_color_6);
   }
 }

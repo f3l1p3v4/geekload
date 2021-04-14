@@ -2,7 +2,7 @@ import React from "react";
 
 import "./styles.css";
 
-import Information from "../../assets/information.png";
+import contact from "../../assets/contact.svg";
 
 export default function Contact() {
   return (
@@ -10,7 +10,7 @@ export default function Contact() {
       <div className="contact-container">
         <div className="content">
           <section>
-            <img src={Information} alt="Contact" />
+            <img src={contact} alt="Contact" />
 
             <h1>Fale conosco</h1>
             <p>

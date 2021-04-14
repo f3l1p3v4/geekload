@@ -2,11 +2,11 @@ import React, { Component } from "react";
 
 import time from "../../assets/time.svg";
 import safe from "../../assets/safe.svg";
-import video from "../../assets/video.svg";
+import multimedia from "../../assets/multimedia.svg";
 
 import "./styles.css";
 
-class subPresentation extends Component {
+class Information extends Component {
   render() {
     return (
       <div className="information">
@@ -37,7 +37,7 @@ class subPresentation extends Component {
               <h3>Assista de onde quiser.</h3>
             </div>
             <div className="card-image">
-              <img src={video} alt="Video" />
+              <img src={multimedia} alt="Multimidia" />
             </div>
           </div>
           <hr />
@@ -47,4 +47,4 @@ class subPresentation extends Component {
   }
 }
 
-export default subPresentation;
+export default Information;
