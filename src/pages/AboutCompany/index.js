@@ -18,11 +18,12 @@ export default function Contact() {
               <section>
                 <h1>QUEM SOMOS</h1>
                 <p>
-                  A GeekLoad é um dos maiores realizadores de sonhos do Mercado
+                  A DevLoad é uma dos maiores realizadores de sonhos do Mercado
                   Digital de Aprendizado e Instrução. Trata-se de uma empresa
-                  que visa construir estudantes em desenvolvedores, designers e
-                  tudo relacionado a tecnologia, afinal estamos vivendo na "era"
-                  da tecnologia onde empresas e pessoas respiram isso.
+                  que visa conectar estudantes de desenvolvimento e tudo
+                  relacionado a tecnologia com escolas renomadas na área, afinal
+                  estamos vivendo na "era" da tecnologia onde empresas e pessoas
+                  respiram isso.
                 </p>
               </section>
             </div>
@@ -40,7 +41,10 @@ export default function Contact() {
 
         <section>
           <h1>Visão</h1>
-          <p>Ser a melhor empresa de educação e mudança de vida do Brasil</p>
+          <p>
+            Ser a melhor empresa de conexão de alunos com educares e com isso
+            proporcionar a mudança de vida no Brasil.
+          </p>
         </section>
       </div>
     </>

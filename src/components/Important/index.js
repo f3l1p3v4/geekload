@@ -12,9 +12,8 @@ class Important extends Component {
               <h1>Por que aprender a programar?</h1>
               <h3>
                 Os cargos de Desenvolvedor de Softwares e Desenvolvedor de
-                Aplicativos devem ser dois dos mais buscados pelas empresas em
-                nos próximos anos, segundo o relatório do Fórum Econômico
-                Mundial.
+                Aplicativos devem ser dois dos mais buscados pelas empresas nos
+                próximos anos, segundo o relatório do Fórum Econômico Mundial.
               </h3>
             </div>
           </div>

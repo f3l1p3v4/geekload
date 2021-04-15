@@ -14,10 +14,11 @@ export default function Contact() {
           </section>
 
           <form onSubmit={() => {}}>
-            <h1>Fale conosco</h1>
+            <h1>Fale conosco!</h1>
             <p>
-              Fale o que achou da <strong>DevLoad</strong> e nos conte se
-              podemos melhorar para juntos mudarmos a vida de muitos.
+              Se tiver alguma duvida é só pergundar! A equipe da{" "}
+              <strong>DevLoad</strong> te ajudará o mais rápido possível 😊 nos
+              conte o que achou da DevLoad, para podermos melhorar ainda mais.
             </p>
             <input
               placeholder="Nome Completo*"
