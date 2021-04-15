@@ -9,7 +9,7 @@ class Payment extends Component {
   render() {
     return (
       <div className="payment">
-        <section class="payment-section">
+        <section className="payment-section">
           <div className="payment-card">
             <div className="card-text">
               <h1>Pague com Boleto!</h1>

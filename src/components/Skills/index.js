@@ -3,7 +3,7 @@ import { FaReact } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa";
 import { FaGitAlt } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
-import { SiMongodb } from "react-icons/si";
+import { DiMongodb } from "react-icons/di";
 
 import "./styles.css";
 
@@ -12,7 +12,7 @@ class Skills extends Component {
     return (
       <div className="skill">
         <h1>Principais ferramentas para você aprender</h1>
-        <section class="skill-section">
+        <section className="skill-section">
           <div className="skill-card">
             <div className="skill-title">
               <p>React</p>
@@ -50,7 +50,7 @@ class Skills extends Component {
               <p>MongoDB</p>
             </div>
             <div className="skill-image">
-              <SiMongodb />
+              <DiMongodb />
             </div>
           </div>
         </section>

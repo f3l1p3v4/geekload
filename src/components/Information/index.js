@@ -10,7 +10,7 @@ class Information extends Component {
   render() {
     return (
       <div className="information">
-        <section class="information-section">
+        <section className="information-section">
           <div className="information-card">
             <div className="card-text">
               <h1>Faça no seu tempo!</h1>

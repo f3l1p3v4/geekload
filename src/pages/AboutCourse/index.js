@@ -54,11 +54,11 @@ function AboutCourse() {
                         <span className="text-red-2">69,99</span>
                       </p>
                     </div>
-                    <div class="about-price">
-                      <span class="text-gray-dark">Preço Regular</span>
-                      <span class="text-gray-dark-bold">R$ 279</span>
+                    <div className="about-price">
+                      <span className="text-gray-dark">Preço Regular</span>
+                      <span className="text-gray-dark-bold">R$ 279</span>
                     </div>
-                    <div class="about-price">
+                    <div className="about-price">
                       <span className="text-gray-dark2">Economize</span>
                       <span className="text-gray-dark2">R$209.01 (74%)</span>
                     </div>

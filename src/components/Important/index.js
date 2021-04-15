@@ -6,7 +6,7 @@ class Important extends Component {
   render() {
     return (
       <div className="important">
-        <section class="important-section">
+        <section className="important-section">
           <div className="important-card">
             <div className="card-text">
               <h1>Pague com Boleto Pague com Boleto!</h1>
