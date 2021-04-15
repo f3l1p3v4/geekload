@@ -2,7 +2,7 @@ import React from "react";
 
 import "./styles.css";
 
-import QuemSomos from "../../assets/QuemSomos.png";
+import QuemSomos from "../../assets/quem_somos.png";
 
 export default function Contact() {
   return (

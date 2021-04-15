@@ -1,6 +1,6 @@
 .contact-container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
 
   display: flex;
@@ -20,23 +20,21 @@
 
 .contact-container .content section {
   width: 100%;
-  max-width: 650px;
+  max-width: 550px;
 }
 
 .contact-container .content section img {
   width: 100%;
-  max-width: 650px;
   margin: 0 auto;
   padding: 30px;
 }
 
-.contact-container .content section h1 {
+.contact-container .content form h1 {
   color: var(--_color_1);
-  margin: 64px 0 32px;
   font-size: 32px;
 }
 
-.contact-container .content section p {
+.contact-container .content form p {
   font-size: 18px;
   color: var(--_color_5);
   line-height: 32px;
@@ -44,8 +42,7 @@
 
 .contact-container .content form {
   width: 100%;
-  max-width: 650px;
-  margin-bottom: 100px;
+  max-width: 550px;
 }
 
 .contact-container .content form input,

@@ -11,15 +11,14 @@ export default function Contact() {
         <div className="content">
           <section>
             <img src={contact} alt="Contact" />
+          </section>
 
+          <form onSubmit={() => {}}>
             <h1>Fale conosco</h1>
             <p>
               Fale o que achou da <strong>DevLoad</strong> e nos conte se
               podemos melhorar para juntos mudarmos a vida de muitos.
             </p>
-          </section>
-
-          <form onSubmit={() => {}}>
             <input
               placeholder="Nome Completo*"
               // value={name}
