@@ -11,7 +11,7 @@ class Skills extends Component {
   render() {
     return (
       <div className="skill">
-        <h1>Principais ferramentas para você aprender</h1>
+        <h1>Principais ferramentas para você aprender!</h1>
         <section className="skill-section">
           <div className="skill-card">
             <div className="skill-title">

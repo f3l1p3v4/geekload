@@ -15,9 +15,10 @@ class Exclusive extends Component {
             </div>
 
             <div className="text">
-              <h1>Fique atualizado!</h1>
+              <h1>Fique por dentro!</h1>
               <h3>
-                Seja avisado no seu e-mail quando um novo curso for lançado.
+                Saiba em primeira mão sempre que surgir novidades sobre os
+                cursos.
               </h3>
               <form onSubmit={() => {}}>
                 <input

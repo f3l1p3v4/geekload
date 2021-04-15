@@ -41,8 +41,8 @@
 .important-card .card-text h3 {
   color: var(--_color_0);
   text-align: center;
-  font-weight: 500;
-  font-size: 1.8em;
+  font-weight: 400;
+  font-size: 1.4em;
 }
 
 .important-card .card-image {
