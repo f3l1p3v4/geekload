@@ -10,12 +10,10 @@ const About = () => (
         <img src={DevWomen} alt="Developer Women" />
       </div>
       <div className="profile">
-        <h1>Olá,</h1>
-        <p>
-          Tenho 23 anos, sou um dev desde de 2016 quando iniciei Ciência da
-          Computação na faculdade Uniderp em Campo Grande-MS, foi quando conheci{" "}
-          <a href="/#contact">Quer saber mais?</a>
-        </p>
+        <h1>
+          Olá Desenvolvedor(a) 💙, Evolua rápido com os melhores cursos do
+          mercado 🎯.
+        </h1>
       </div>
     </div>
   </section>

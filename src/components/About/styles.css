@@ -24,22 +24,9 @@
 }
 
 #about-dev .about-dev-container .profile h1 {
-  font-size: 5em;
+  font-size: 4em;
   line-height: 1.3em;
   font-weight: bold;
-  color: var(--_color_1);
-}
-
-#about-dev .about-dev-container .profile p {
-  font-size: 1.6em;
-  line-height: 1.3em;
-  text-indent: 1.3em;
-  color: var(--_color_2);
-  font-weight: 500;
-}
-
-#about-dev .about-dev-container .profile p a {
-  text-decoration: none;
   color: var(--_color_1);
 }
 
@@ -57,5 +44,9 @@
   #about-dev .about-dev-container .profile {
     width: 95%;
     text-align: center;
+  }
+
+  #about-dev .about-dev-container .profile h1 {
+    font-size: 3em;
   }
 }

@@ -14,7 +14,6 @@ class Information extends Component {
           <div className="information-card">
             <div className="card-text">
               <h1>Faça no seu tempo!</h1>
-              <h3>Faça no seu ritmo.</h3>
             </div>
             <div className="card-image">
               <img src={time} alt="Relógio" />
@@ -24,7 +23,6 @@ class Information extends Component {
           <div className="information-card">
             <div className="card-text">
               <h1>Totalmente seguro!</h1>
-              <h3>Plataforma rigorosamente segura.</h3>
             </div>
             <div className="card-image">
               <img src={safe} alt="Seguro" />
@@ -34,7 +32,6 @@ class Information extends Component {
           <div className="information-card">
             <div className="card-text">
               <h1>Assista online!</h1>
-              <h3>Assista de onde quiser.</h3>
             </div>
             <div className="card-image">
               <img src={multimedia} alt="Multimidia" />
