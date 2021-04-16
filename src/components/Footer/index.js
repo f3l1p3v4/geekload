@@ -1,5 +1,6 @@
 import React from "react";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 import logoTitle from "../../assets/icon-title.png";
 
@@ -10,26 +11,26 @@ const Footer = () => (
     <hr />
     <div className="social-container">
       <div className="footer-info">
-        <a href="/about">
+        <Link to="/about">
           <p>Quem somos</p>
-        </a>
-        <a href="/">
+        </Link>
+        <Link to="/">
           <p>Termos</p>
-        </a>
-        <a href="/">
+        </Link>
+        <Link to="/">
           <p>Política de Privacidade</p>
-        </a>
+        </Link>
       </div>
       <div className="footer-social">
-        <a href="/about">
+        <Link to="/about">
           <FaFacebook />
-        </a>
-        <a href="/">
+        </Link>
+        <Link to="/">
           <FaInstagram />
-        </a>
-        <a href="/">
+        </Link>
+        <Link to="/">
           <FaTwitter />
-        </a>
+        </Link>
       </div>
     </div>
     <div className="footer-img">

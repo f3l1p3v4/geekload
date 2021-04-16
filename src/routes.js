@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import AboutCompany from "./pages/AboutCompany";
 import Contact from "./pages/Contact";
-import AboutCourse from "./pages/AboutCourse";
+import Course from "./pages/Course";
 
 export default function Routes() {
   return (
@@ -19,7 +19,7 @@ export default function Routes() {
             <Route path="/" exact component={Home} />
             <Route path="/contact" component={Contact} />
             <Route path="/about" component={AboutCompany} />
-            <Route path="/aboutcourse" component={AboutCourse} />
+            <Route path="/course" component={Course} />
           </Switch>
         </div>
         <Footer />
