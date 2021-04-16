@@ -16,7 +16,7 @@ const Course = () => (
           <h2>{course.title}</h2>
           <span>{course.description}</span>
           <div className="btn">
-            <a href={course.link} target="_blank" rel="noreferrer">
+            <a href={course.link} target="_blank" rel="noopener noreferrer">
               Saber Mais
             </a>
           </div>
