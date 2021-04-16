@@ -8,7 +8,7 @@ const Course = () => (
   <section id="course">
     <h1>Cursos que a DevLoad apoia!</h1>
     {courses.map((course) => (
-      <div className="course-container">
+      <div className="course-container" key={course.id}>
         <div className="course-img">
           <img src={course.image} alt={course.alt} />
         </div>
