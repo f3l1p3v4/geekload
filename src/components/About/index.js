@@ -10,10 +10,10 @@ const About = () => (
         <img src={DevWomen} alt="Developer Women" />
       </div>
       <div className="profile">
-        <h1>
+        <span role="img" aria-labelledby="Coração e Foco">
           Olá Desenvolvedor(a) 💙, Evolua rápido com os melhores cursos do
           mercado 🎯.
-        </h1>
+        </span>
       </div>
     </div>
   </section>
