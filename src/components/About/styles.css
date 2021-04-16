@@ -23,7 +23,7 @@
   text-align: left;
 }
 
-#about-dev .about-dev-container .profile h1 {
+#about-dev .about-dev-container .profile span {
   font-size: 4em;
   line-height: 1.3em;
   font-weight: bold;
