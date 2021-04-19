@@ -1,10 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
+import api from "../../services/api";
 
 import "./styles.css";
 
 import contact from "../../assets/contact.svg";
 
-export default function Contact() {
+export default function Contact({ onSubmit }) {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [assunto, setAssunto] = useState("");
+  const [message, setMessage] = useState("");
+
+  async function handleSubmit(e) {
+    e.preventDefault();
+
+    api.post("/contact", { name, email, assunto, message });
+
+    await onSubmit({
+      name,
+      email,
+      assunto,
+      message
+    });
+  }
   return (
     <>
       <div className="contact-container">
@@ -13,7 +31,7 @@ export default function Contact() {
             <img src={contact} alt="Contact" />
           </section>
 
-          <form onSubmit={() => {}}>
+          <form onSubmit={handleSubmit}>
             <h1>Fale conosco!</h1>
             <p>
               Se tiver alguma duvida é só pergundar! A equipe da{" "}
@@ -21,25 +39,28 @@ export default function Contact() {
               conte o que achou da DevLoad, para podermos melhorar ainda mais.
             </p>
             <input
+              type="text"
               placeholder="Nome Completo*"
-              // value={name}
-              // onChange={e => setName(e.target.value)}
+              value={name}
+              onChange={(e) => setName(e.target.value)}
             />
             <input
               type="email"
               placeholder="E-mail*"
-              // value={email}
-              // onChange={e => setEmail(e.target.value)}
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
             />
             <input
+              type="text"
               placeholder="Assunto*"
-              // value={whatsapp}
-              // onChange={e => setWhatsapp(e.target.value)}
+              value={assunto}
+              onChange={(e) => setAssunto(e.target.value)}
             />
             <textarea
+              type="text"
               placeholder="Mensagem"
-              // value={description}
-              // onChange={e => setDescription(e.target.value)}
+              value={message}
+              onChange={(e) => setMessage(e.target.value)}
             />
 
             <button className="button" type="submit">
