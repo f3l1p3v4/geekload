@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { FaReact } from "react-icons/fa";
-import { SiFlutter } from "react-icons/si";
+import { FiSmartphone } from "react-icons/fi";
 import { FaGitAlt } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { DiMongodb } from "react-icons/di";
@@ -26,7 +26,7 @@ class Skills extends Component {
               <p>Flutter</p>
             </div>
             <div className="skill-image">
-              <SiFlutter />
+              <FiSmartphone />
             </div>
           </div>
           <div className="skill-card">
