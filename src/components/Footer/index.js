@@ -14,11 +14,11 @@ const Footer = () => (
         <Link to="/about">
           <p>Quem somos</p>
         </Link>
-        <Link to="/">
-          <p>Termos</p>
+        <Link to="/course">
+          <p>Cursos</p>
         </Link>
         <Link to="/">
-          <p>Política de Privacidade</p>
+          <p>Blog</p>
         </Link>
       </div>
       <div className="footer-social">

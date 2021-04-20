@@ -41,8 +41,7 @@
   font-weight: 500;
 }
 
-.presentation .presentation-container > div button {
-  background: var(--_color_1);
+.presentation .presentation-container > div a {
   background: -webkit-linear-gradient(#1cffb3, #5996f0);
   border: 0.1rem solid var(--_color_0);
   color: var(--_color_0);
@@ -54,7 +53,7 @@
   transition: 0.2s ease-in;
 }
 
-.presentation .presentation-container > div button:hover {
+.presentation .presentation-container > div a:hover {
   background: transparent;
   border: 0.1rem solid var(--_color_1);
   color: var(--_color_1);

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 import "./styles.css";
 
@@ -14,7 +15,9 @@ class Presentation extends Component {
               Transforme a sua vida e a de milhares, milhões ou até bilhões de
               pessoas com tecnologia.
             </p>
-            <button to="/courses">Iniciar!</button>
+            <div>
+              <Link to="/course">Iniciar!</Link>
+            </div>
           </div>
         </section>
       </div>
