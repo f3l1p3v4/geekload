@@ -22,15 +22,15 @@ const Footer = () => (
         </Link>
       </div>
       <div className="footer-social">
-        <Link to="/about">
+        <a href="https://m.facebook.com/devload.oficial">
           <FaFacebook />
-        </Link>
-        <Link to="/">
+        </a>
+        <a href="https://instagram.com/devload_oficial">
           <FaInstagram />
-        </Link>
-        <Link to="/">
+        </a>
+        <a href="https://twitter.com">
           <FaTwitter />
-        </Link>
+        </a>
       </div>
     </div>
     <div className="footer-img">
