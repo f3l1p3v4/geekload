@@ -12,12 +12,12 @@ function Exclusive({ onSubmit }) {
   async function handleSubmit(e) {
     e.preventDefault();
 
-    api.post("/spots", { name, email });
+    api.post("/exclusive", { name, email });
 
-    await onSubmit({
-      name,
-      email
-    });
+    setName("");
+    setEmail("");
+
+    alert("Seu contato foi salvo com sucesso!!!");
   }
 
   return (

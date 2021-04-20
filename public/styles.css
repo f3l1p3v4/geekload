@@ -1,0 +1,25 @@
+.load {
+  position: fixed;
+  margin: auto;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: 35px;
+  width: 35px;
+  padding: 10px;
+  background-color: #000003;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 8px rgba(0, 0, 0, 0.4);
+  animation: spin 2s linear infinite;
+}
+
+.load img {
+  width: 100%;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}

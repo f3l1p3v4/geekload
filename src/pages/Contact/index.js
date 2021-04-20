@@ -3,9 +3,9 @@ import api from "../../services/api";
 
 import "./styles.css";
 
-import contact from "../../assets/contact.svg";
+import contactImg from "../../assets/contact.svg";
 
-export default function Contact({ onSubmit }) {
+export default function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [assunto, setAssunto] = useState("");
@@ -14,21 +14,27 @@ export default function Contact({ onSubmit }) {
   async function handleSubmit(e) {
     e.preventDefault();
 
-    api.post("/contact", { name, email, assunto, message });
-
-    await onSubmit({
+    await api.post("/contact", {
       name,
       email,
       assunto,
       message
     });
+
+    setName("");
+    setEmail("");
+    setAssunto("");
+    setMessage("");
+
+    alert("Sua mensagem foi enviado com sucesso!!!");
   }
+
   return (
     <>
       <div className="contact-container">
         <div className="content">
           <section>
-            <img src={contact} alt="Contact" />
+            <img src={contactImg} alt="Contato Imagem" />
           </section>
 
           <form onSubmit={handleSubmit}>
