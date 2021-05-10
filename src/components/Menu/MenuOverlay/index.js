@@ -20,9 +20,6 @@ const MenuOverlay = (props) => {
         <li onClick={props.click}>
           <Link to="/contact">Contato</Link>
         </li>
-        <li onClick={props.click}>
-          <a href="https://devloadblog.netlify.app">Blog</a>
-        </li>
       </ul>
     </nav>
   );

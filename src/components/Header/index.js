@@ -53,16 +53,6 @@ class Header extends Component {
                 <li>
                   <Link to="/contact">Contato</Link>
                 </li>
-                <li>
-                  <a
-                    href="https://devloadblog.netlify.app"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn"
-                  >
-                    Blog
-                  </a>
-                </li>
               </ul>
             </div>
 
