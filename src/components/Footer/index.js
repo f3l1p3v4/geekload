@@ -17,9 +17,6 @@ const Footer = () => (
         <Link to="/course">
           <p>Cursos</p>
         </Link>
-        <Link to="/">
-          <p>Blog</p>
-        </Link>
       </div>
       <div className="footer-social">
         <a href="https://m.facebook.com/devload.oficial">
@@ -28,7 +25,7 @@ const Footer = () => (
         <a href="https://instagram.com/devload_oficial">
           <FaInstagram />
         </a>
-        <a href="https://twitter.com">
+        <a href="https://twitter.com/devload1">
           <FaTwitter />
         </a>
       </div>
