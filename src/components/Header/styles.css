@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   width: 100%;
+  background-color: var(--_color_1);
 }
 
 .navbar {
@@ -16,7 +17,7 @@
   align-items: center;
   padding-right: 10px;
   text-decoration: none;
-  color: var(--_color_1);
+  color: var(--_color_0);
 }
 
 .logo {
@@ -47,7 +48,7 @@
 .navbar-menu ul li a {
   text-decoration: none;
   cursor: pointer;
-  color: var(--_color_1);
+  color: var(--_color_0);
   transition: 0.5s;
   font-size: 1.1em;
   font-weight: bold;
@@ -55,15 +56,15 @@
 }
 
 .navbar-menu ul li a:hover {
-  border-bottom: 2px solid var(--_color_1);
+  border-bottom: 2px solid var(--_color_0);
 }
 
 .navbar-menu ul li .btn {
-  background: var(--_color_1);
-  color: var(--_color_0);
+  background: var(--_color_0);
+  color: var(--_color_1);
   border-radius: 0.4rem;
-  padding: 0.4rem 1.5rem;
-  border: 0.1rem solid var(--_color_1);
+  padding: 0.3rem 1.2rem;
+  border: 0.1rem solid var(--_color_0);
   font-size: 1.1em;
   font-weight: 500;
   cursor: pointer;
@@ -72,8 +73,8 @@
 
 .navbar-menu ul li .btn:hover {
   background: transparent;
-  border: 0.1rem solid var(--_color_1);
-  color: var(--_color_1);
+  border: 0.1rem solid var(--_color_0);
+  color: var(--_color_0);
 }
 
 .spacer {
