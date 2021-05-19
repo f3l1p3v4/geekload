@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import AboutCompany from "./pages/AboutCompany";
 import Contact from "./pages/Contact";
 import Course from "./pages/Course";
+import Error from "./pages/404";
 
 export default function Routes() {
   return (
@@ -20,6 +21,7 @@ export default function Routes() {
             <Route path="/contact" component={Contact} />
             <Route path="/about" component={AboutCompany} />
             <Route path="/course" component={Course} />
+            <Route path="*" component={Error} />
           </Switch>
         </div>
         <Footer />
