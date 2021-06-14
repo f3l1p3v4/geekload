@@ -53,7 +53,7 @@
 }
 
 #course .course-container .course-text h2 {
-  font-size: 2.3em;
+  font-size: 1.8em;
   line-height: 1.3em;
   font-weight: bold;
   color: var(--_color_1);
@@ -61,7 +61,7 @@
 }
 
 #course .course-container .course-text span {
-  font-size: 1.2em;
+  font-size: 1em;
   line-height: 1.3em;
   font-weight: 400;
   color: var(--_color_2);
@@ -97,7 +97,7 @@
 
   #course .course-container .course-img {
     width: 100%;
-    margin-top: 20px;
+    padding: 20px;
   }
 
   #course .course-container .course-text {
@@ -106,6 +106,6 @@
   }
 
   #course .course-container .course-text h1 {
-    font-size: 3em;
+    font-size: 2em;
   }
 }
