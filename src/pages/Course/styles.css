@@ -104,8 +104,8 @@
     width: 95%;
     text-align: center;
   }
-
-  #course .course-container .course-text h1 {
+  
+  #course h1 {
     font-size: 2em;
   }
 }
