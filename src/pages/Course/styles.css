@@ -90,6 +90,10 @@
 }
 
 @media (max-width: 700px) {
+  #course h1 {
+    font-size: 3em;
+  }
+
   #course .course-container {
     flex-direction: column;
     justify-content: center;
@@ -102,10 +106,10 @@
 
   #course .course-container .course-text {
     width: 95%;
-    text-align: center;
+    text-align: left;
   }
-  
-  #course h1 {
-    font-size: 2em;
+
+  #course .course-container .course-text h2 {
+    text-align: left;
   }
 }
