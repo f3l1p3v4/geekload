@@ -9,7 +9,7 @@
   },
   {
     "id": "02",
-    "image": "../../assets/node.jpg",
+    "image": "https://cursos.dankicode.com/app/Views/public/mkt/nodejs/images/logo-hero.png",
     "alt": "Curso node.js",
     "title": "Curso NodeJS",
     "description": "Aprenda tudo sobre NodeJS e criar qualquer aplicação utilizando a tecnologia do momento. Iremos do zero ao profissional e serão criados 3 projetos práticos utilizando banco de dados MongoDB. Comece agora no mundo da programação!",
