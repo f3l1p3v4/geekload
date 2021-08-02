@@ -5,8 +5,8 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10px 10px 25px;
-  margin: 50px auto;
+  padding: 10px 10px 10px;
+  margin: 50px auto 0px;
 }
 
 footer hr {
@@ -35,7 +35,7 @@ footer hr {
 
 .social-container .footer-info a {
   font-size: 1em;
-  color: var(--_color_2);
+  color: var(--_color_1);
   text-decoration: none;
   transition: all 0.4s ease-in-out;
   padding: 20px 10px;
@@ -47,7 +47,7 @@ footer hr {
 
 .social-container .footer-social a {
   font-size: 1.6em;
-  color: var(--_color_2);
+  color: var(--_color_1);
   text-decoration: none;
   transition: all 0.4s ease-in-out;
   padding: 12px;
@@ -69,7 +69,7 @@ footer .footer-img img {
 
 footer .footer-img p {
   text-align: left;
-  color: var(--_color_2);
+  color: var(--_color_1);
   padding-left: 40px;
 }
 

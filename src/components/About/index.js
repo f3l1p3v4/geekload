@@ -1,5 +1,5 @@
 import React from "react";
-import DevWomen from "../../assets/dev-women.svg";
+import student from "../../assets/student.png";
 
 import "./styles.css";
 
@@ -7,7 +7,7 @@ const About = () => (
   <section id="about-dev">
     <div className="about-dev-container">
       <div className="coder-img">
-        <img src={DevWomen} alt="Developer Women" />
+        <img src={student} alt="Developer" />
       </div>
       <div className="profile">
         <span role="img" aria-labelledby="Coração e Foco">

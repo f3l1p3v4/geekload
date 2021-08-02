@@ -10,10 +10,11 @@
 
 #about-dev .about-dev-container .coder-img {
   width: 50%;
-  padding: 30px;
+  padding: 5px;
 }
 
 #about-dev .about-dev-container .coder-img img {
+  width: 100%;
   margin-top: 40px;
   margin-bottom: 0;
 }

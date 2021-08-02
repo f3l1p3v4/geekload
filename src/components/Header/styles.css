@@ -21,7 +21,7 @@
 }
 
 .logo {
-  width: 15%;
+  width: 140px;
   padding: 5px 20px;
 }
 
@@ -50,8 +50,8 @@
   cursor: pointer;
   color: var(--_color_0);
   transition: 0.5s;
-  font-size: 1.1em;
-  font-weight: bold;
+  font-size: 0.9em;
+  font-weight: 400;
   transition: 0.1s ease-in;
 }
 
@@ -99,7 +99,7 @@
 
 @media (max-width: 550px) {
   .logo {
-    width: 3.5rem;
+    width: 120px;
     padding: 10px;
   }
 }
