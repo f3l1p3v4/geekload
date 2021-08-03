@@ -31,7 +31,8 @@ function Exclusive({ onSubmit }) {
           <div className="text">
             <h1>Fique por dentro!</h1>
             <h3>
-              Saiba em primeira mão sempre que surgir novidades sobre os cursos.
+              Saiba em primeira mão sempre que surgir novidades sobre o mundo da
+              tecnologia!
             </h3>
             <form onSubmit={handleSubmit}>
               <input
