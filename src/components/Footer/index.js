@@ -2,7 +2,7 @@ import React from "react";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-import logoTitle from "../../assets/icon-title.png";
+import logoTitle from "../../assets/icon-footer.png";
 
 import "./styles.css";
 
