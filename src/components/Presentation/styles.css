@@ -4,7 +4,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
   padding: 0 10px;
   margin: 0 auto;
   background-position: center;
@@ -18,11 +17,7 @@
     url("https://images.unsplash.com/photo-1602992708529-c9fdb12905c9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
 }
 
-.presentation .presentation-container {
-  max-width: 800px;
-}
-
-.presentation .presentation-container > div h1:nth-child(1) {
+.presentation .presentation-container h1 {
   font-size: 8.8em;
   line-height: 1.4em;
   letter-spacing: -0.2rem;
@@ -30,9 +25,38 @@
   background: -webkit-linear-gradient(#1cffb3, #5996f0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
-.presentation .presentation-container > div h1:nth-child(2) {
+.typing-animation {
+  animation: blinkCursor 500ms steps(40) infinite normal,
+    typing 2s steps(40) 0.8s normal both;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 4em;
+  }
+}
+
+@keyframes blinkCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+.presentation .presentation-container h2 {
+  width: 700px;
+  margin: 0 auto;
   font-size: 4.8em;
   line-height: 1em;
   letter-spacing: -0.2rem;
@@ -42,7 +66,9 @@
   -webkit-text-fill-color: transparent;
 }
 
-.presentation .presentation-container > div p {
+.presentation .presentation-container p {
+  width: 700px;
+  margin: 0 auto;
   color: var(--_color_0);
   font-size: 1.5em;
   line-height: 32px;
@@ -50,7 +76,7 @@
   font-weight: 500;
 }
 
-.presentation .presentation-container > div a {
+.presentation .presentation-container a {
   background: -webkit-linear-gradient(#1cffb3, #5996f0);
   color: var(--_color_0);
   border-radius: 0.4rem;
@@ -61,41 +87,71 @@
   transition: 0.9s ease-in;
 }
 
-.presentation .presentation-container > div a:hover {
+.presentation .presentation-container a:hover {
   background: transparent;
   border: 0.1rem solid var(--_color_0);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .presentation {
     height: auto;
   }
 
-  .presentation .presentation-container > div h1:nth-child(1) {
+  .presentation .presentation-container h1 {
+    width: 500px;
+    margin: 0 auto;
     margin-top: 3rem;
     font-size: 6em;
   }
 
-  .presentation .presentation-container > div h1:nth-child(2) {
+  .presentation .presentation-container h2 {
+    width: 500px;
+    margin: 0 auto;
     font-size: 4em;
   }
 
-  .presentation .presentation-container > div p {
+  .presentation .presentation-container p {
+    width: 500px;
+    margin: 0 auto;
     font-size: 1.3em;
   }
 
-  .presentation .presentation-container > div button {
+  .presentation .presentation-container .presentation-button {
+    margin: 60px 0;
+  }
+
+  .presentation .presentation-container a {
     padding: 1.1rem 6.2rem;
   }
 
-  .presentation .presentation-container > div a:hover {
+  .presentation .presentation-container a:hover {
     background: -webkit-linear-gradient(#1cffb3, #5996f0);
     border: none;
   }
 }
 
-@media (max-width: 400px) {
-  .presentation .presentation-container > div button {
+@media (max-width: 500px) {
+  .presentation .presentation-container h1 {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 3rem;
+    font-size: 6em;
+  }
+
+  .presentation .presentation-container h2 {
+    width: 300px;
+    margin: 0 auto;
+    font-size: 3em;
+  }
+
+  .presentation .presentation-container p {
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 30px;
+    font-size: 1.2em;
+  }
+
+  .presentation .presentation-container button {
     width: 100%;
     font-size: 1.4rem;
   }

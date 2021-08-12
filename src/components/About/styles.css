@@ -31,7 +31,7 @@
   color: var(--_color_1);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   #about-dev .about-dev-container {
     flex-direction: column;
     justify-content: center;
